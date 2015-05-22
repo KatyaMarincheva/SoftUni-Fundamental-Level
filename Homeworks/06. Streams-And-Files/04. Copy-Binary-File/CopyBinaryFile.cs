@@ -29,7 +29,5 @@ class CopyBinaryFile
         // open image file with results
         System.Diagnostics.Process.Start(@"..\..\result.jpg");
     }
-
-    public static Microsoft.Win32.SafeHandles.SafeFileHandle ImagePath { get; set; }
 }
 
