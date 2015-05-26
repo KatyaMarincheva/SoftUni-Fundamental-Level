@@ -59,26 +59,16 @@ class OfficeStuff
             // order input
             string[] order = Console.ReadLine().Split(new char[] {'|', '-', ' '}, StringSplitOptions.RemoveEmptyEntries);
 
-            string company = order[0];
-            string product = order[2];
-            int amount = int.Parse(order[1]);
-
-            // storing the order details into the dictionary 
-            if (!companyOrders.ContainsKey(company))
-            {
-                Dictionary<string, int > products = new Dictionary<string, int>();
-                products.Add(product, 0);
-
-                companyOrders.Add(company, products);
-            }
-            else if(!companyOrders[company].ContainsKey(product))
-            {
-                companyOrders[company].Add(product, 0);
-            }
-            companyOrders[company][product] += amount;
+            FillDictionary(order, companyOrders);
         }
 
-        // this list prepares the results for final formating
+        // print
+        Print(companyOrders);
+    }
+
+    private static void Print(SortedDictionary<string, Dictionary<string, int>> companyOrders)
+    {
+// this list prepares the results for final formating
         List<string> result = new List<string>();
 
         foreach (var pair1 in companyOrders)
@@ -89,6 +79,27 @@ class OfficeStuff
             Console.WriteLine(string.Join(", ", result));
             result.Clear();
         }
+    }
+
+    private static void FillDictionary(string[] order, SortedDictionary<string, Dictionary<string, int>> companyOrders)
+    {
+        string company = order[0];
+        string product = order[2];
+        int amount = int.Parse(order[1]);
+
+        // storing the order details into the dictionary 
+        if (!companyOrders.ContainsKey(company))
+        {
+            Dictionary<string, int> products = new Dictionary<string, int>();
+            products.Add(product, 0);
+
+            companyOrders.Add(company, products);
+        }
+        else if (!companyOrders[company].ContainsKey(product))
+        {
+            companyOrders[company].Add(product, 0);
+        }
+        companyOrders[company][product] += amount;
     }
 }
 

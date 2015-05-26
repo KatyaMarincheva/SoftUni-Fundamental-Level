@@ -48,7 +48,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Students-Directory\01. Class-Student.csproj">
+    <ProjectReference Include="..\01. Class-Student\01. Class-Student.csproj">
       <Project>{55e60bda-9536-498f-87df-08842dc05af8}</Project>
       <Name>01. Class-Student</Name>
     </ProjectReference>
