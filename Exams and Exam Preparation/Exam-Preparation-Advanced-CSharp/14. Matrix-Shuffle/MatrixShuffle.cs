@@ -70,7 +70,7 @@ class MatrixShuffle
         var isPalindrome = IsPalindrome(sentence);
 
         // print
-        Console.WriteLine("<div style='background-color:{0}'>{1}</div>", sentence, isPalindrome ? "#4FE000" : "#E0000F");        
+        Console.WriteLine("<div style='background-color:{0}'>{1}</div>", isPalindrome ? "#4FE000" : "#E0000F", sentence);        
     }
 
     private static bool IsPalindrome(string sentence)
