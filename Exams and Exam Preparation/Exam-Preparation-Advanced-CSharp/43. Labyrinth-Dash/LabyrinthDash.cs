@@ -1,8 +1,21 @@
 ﻿/* Problem 12.	* Labyrinth Dash
 This problem is from the Java Basics (11 May 2015). You can test your solution here.
-Enough hard problems. Let’s play a game! You will be given the layout of a labyrinth (a two-dimensional array) and a series of moves. Your task is to navigate the labyrinth and print the outcome of each move.
-On the first line of input you will be given the number N representing the count of rows of the labyrinth. On each of the next N lines you will receive a string containing the layout of the given row. On the last line of input you will receive a string containing the moves you need to make. Each move will be one of the following symbols: "v" (move down), "^" (move up), "<" (move left) or ">" (move right). The string will not contain any other characters.
-The player starts with 3 lives and begins the journey at position (0, 0). When you make a move, there can be several different outcomes: 1) Hit a wall – a wall is represented by the symbols "_" (underscore) and "|" (pipe). Hitting a wall means the player stays in place; in this case you should print on the console “Bumped a wall.” 2) Land on an obstacle – obstacles are the following symbols: "@", "#", "*". If you move to a position containing one of these symbols the player loses a life point and you should print "Ouch! That hurt! Lives left: X" on the console. If the player is left with 0 lives, the game ends and you should print "No lives left! Game Over!" 3) Get a new life – when you land on the symbol "$" the player receives an additional life point. Print "Awesome! Lives left: X" on the console. Additional lives ('$') are removed once the player passes through the cell (i.e. they are replaced with dots). 4) Drop out of the labyrinth – if you land on an empty cell (one containing a space), or outside the boundaries of the array, the game ends and you should print "Fell off a cliff! Game Over!" 5) Land on the symbol "." (dot) – move the player to the new position, nothing else happens; print on the console "Made a move!"
+Enough hard problems. Let’s play a game! You will be given the layout of a labyrinth (a two-dimensional array) and a series of moves. 
+ * Your task is to navigate the labyrinth and print the outcome of each move.
+On the first line of input you will be given the number N representing the count of rows of the labyrinth. On each of the next N lines 
+ * you will receive a string containing the layout of the given row. On the last line of input you will receive a string containing 
+ * the moves you need to make. Each move will be one of the following symbols: "v" (move down), "^" (move up), "<" (move left) or ">" (move right). 
+ * The string will not contain any other characters.
+The player starts with 3 lives and begins the journey at position (0, 0). When you make a move, there can be several different outcomes: 1) 
+ * Hit a wall – a wall is represented by the symbols "_" (underscore) and "|" (pipe). Hitting a wall means the player stays in place; 
+ * in this case you should print on the console “Bumped a wall.” 2) Land on an obstacle – obstacles are the following symbols: "@", "#", "*". 
+ * If you move to a position containing one of these symbols the player loses a life point and you should print "Ouch! That hurt! Lives left: X" on the console. 
+ * If the player is left with 0 lives, the game ends and you should print "No lives left! Game Over!" 3) Get a new life – when you land on the symbol "$" 
+ * the player receives an additional life point. Print "Awesome! Lives left: X" on the console. Additional lives ('$') are removed 
+ * once the player passes through the cell (i.e. they are replaced with dots). 4) Drop out of the labyrinth – 
+ * if you land on an empty cell (one containing a space), or outside the boundaries of the array, the game ends 
+ * and you should print "Fell off a cliff! Game Over!" 5) Land on the symbol "." (dot) – move the player to the new position, 
+ * nothing else happens; print on the console "Made a move!"
 When the game ends (either the player has lost or all moves were made), print "Total moves made: X".
 Input
 •	The input data should be read from the console.
