@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. PIN-Validation", "18. P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Chat-Logger", "19. Chat-Logger\19. Chat-Logger.csproj", "{131F0C0E-AABA-4B59-9A04-94FA62CD92E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. OhMyGirl", "20. OhMyGirl\20. OhMyGirl.csproj", "{C6F3BE26-B9F4-4D44-B67A-B211F5E01EB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -249,6 +251,10 @@ Global
 		{131F0C0E-AABA-4B59-9A04-94FA62CD92E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{131F0C0E-AABA-4B59-9A04-94FA62CD92E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{131F0C0E-AABA-4B59-9A04-94FA62CD92E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F3BE26-B9F4-4D44-B67A-B211F5E01EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F3BE26-B9F4-4D44-B67A-B211F5E01EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F3BE26-B9F4-4D44-B67A-B211F5E01EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F3BE26-B9F4-4D44-B67A-B211F5E01EB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
