@@ -30,7 +30,7 @@ class SumOfAllValues
     static void Main(string[] args)
     {
         // input
-        string keys = Console.ReadLine();
+        var keys = Console.ReadLine();
         string text = Console.ReadLine();
 
         // extracting start and end keys from the keys string

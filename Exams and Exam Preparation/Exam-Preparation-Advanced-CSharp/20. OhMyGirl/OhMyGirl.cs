@@ -44,7 +44,7 @@ class OhMyGirl
 {
     static void Main()
     {
-        char[] specialSymbols = {'*', '+', '?', '[', ']', '{', '}', ',', '.', '^', '$', '<', '>', '\\', '/', '(', ')'};
+        char[] specialSymbols = {'*', '+', '?', '[', ']', '{', '}', ',', '.', '^', '$', '<', '>', '\\', '/', '(', ')', '"'};
         // input key
         var key = Console.ReadLine();
 

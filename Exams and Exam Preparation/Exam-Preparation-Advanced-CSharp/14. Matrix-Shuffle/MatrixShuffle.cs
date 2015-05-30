@@ -131,7 +131,7 @@ class MatrixShuffle
                 count++;
             }
             leftColumn++;
-            ; // we go one column to the right
+             // we go one column to the right
         } while (count < totalCells); // and continuing the spiral to the end of the text string
         return spiralMatrix;
     }

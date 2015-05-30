@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Chat-Logger", "19. Chat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. OhMyGirl", "20. OhMyGirl\20. OhMyGirl.csproj", "{C6F3BE26-B9F4-4D44-B67A-B211F5E01EB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21. IT-Village", "21. IT-Village\21. IT-Village.csproj", "{D1243E0C-D35A-4DB6-9875-22D94A1218B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{C6F3BE26-B9F4-4D44-B67A-B211F5E01EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6F3BE26-B9F4-4D44-B67A-B211F5E01EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6F3BE26-B9F4-4D44-B67A-B211F5E01EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1243E0C-D35A-4DB6-9875-22D94A1218B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1243E0C-D35A-4DB6-9875-22D94A1218B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1243E0C-D35A-4DB6-9875-22D94A1218B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1243E0C-D35A-4DB6-9875-22D94A1218B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
