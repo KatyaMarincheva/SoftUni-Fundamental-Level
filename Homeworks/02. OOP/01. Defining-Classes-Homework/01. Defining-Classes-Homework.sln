@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Persons", "01. Persons\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassPersonTests", "ClassPersonTests\ClassPersonTests.csproj", "{701253E7-3726-4595-86B7-58071793DA7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. LaptopShopMain", "02. LaptopShopMain\02. LaptopShopMain.csproj", "{1F6C1B30-C2EE-4117-B420-6BC6CD1D1966}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. LaptopShop", "02. LaptopShop\02. LaptopShop.csproj", "{1F6C1B30-C2EE-4117-B420-6BC6CD1D1966}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLaptopTests", "ClassLaptopTests\ClassLaptopTests.csproj", "{AF82E409-57ED-4207-B52F-573D8C055409}"
 EndProject

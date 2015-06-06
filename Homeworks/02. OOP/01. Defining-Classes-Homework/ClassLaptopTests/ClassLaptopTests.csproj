@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\02. LaptopShopMain\02. LaptopShopMain.csproj">
+    <ProjectReference Include="..\02. LaptopShop\02. LaptopShop.csproj">
       <Project>{1f6c1b30-c2ee-4117-b420-6bc6cd1d1966}</Project>
-      <Name>02. LaptopShopMain</Name>
+      <Name>02. LaptopShop</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

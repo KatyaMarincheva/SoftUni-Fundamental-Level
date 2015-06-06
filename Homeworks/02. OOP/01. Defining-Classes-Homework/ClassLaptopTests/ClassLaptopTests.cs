@@ -1,4 +1,4 @@
-﻿using _02.LaptopShopMain;
+﻿using _02.LaptopShop;
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 

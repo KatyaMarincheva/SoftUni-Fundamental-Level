@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Threading;
 
-namespace _02.LaptopShopMain
+namespace _02.LaptopShop
 {
     class LaptopShopMain
     {

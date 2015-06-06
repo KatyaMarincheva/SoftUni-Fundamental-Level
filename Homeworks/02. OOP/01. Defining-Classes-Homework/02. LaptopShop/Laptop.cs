@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace _02.LaptopShopMain
+namespace _02.LaptopShop
 {
     public class Laptop
     {
