@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Globalization;
 using System.Runtime.InteropServices;
+using System.Threading;
 
 namespace _02.LaptopShop
 {
@@ -87,7 +89,9 @@ namespace _02.LaptopShop
         // methods
         public override string ToString()
         {
-            string description = new string('-', 85) + "\r\n";
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("bg-BG");
+
+            var description = new string('-', 85) + "\r\n";
             description += string.Format("|{0}|\r\n", "laptop description".PadLeft(((83 - "laptop description".Length) / 2)
                                 + "laptop description".Length).PadRight(83));
             description += new string('-', 85) + "\r\n";

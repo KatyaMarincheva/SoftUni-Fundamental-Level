@@ -8,8 +8,6 @@ namespace _02.LaptopShop
     {
         static void Main()
         {
-            Thread.CurrentThread.CurrentCulture = new CultureInfo("bg-BG");
-
             // 1st test option:
             // You can run the Unit Tests from the Visual Studio menu: 
             // BUILD -> Build Solution

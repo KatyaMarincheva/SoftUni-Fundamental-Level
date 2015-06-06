@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLaptopTests", "ClassLa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. PC-Catalog", "03. PC-Catalog\03. PC-Catalog.csproj", "{B154DA32-5F42-453E-AC7B-8532BA8778B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassComponentTests", "ClassComponentTests\ClassComponentTests.csproj", "{1355173F-39B6-4D04-A7F1-B3F903B6A7B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassComputerTests", "ClassComputerTests\ClassComputerTests.csproj", "{245C26F8-81AD-47DB-B5E6-8D4BEF9B47F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{B154DA32-5F42-453E-AC7B-8532BA8778B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B154DA32-5F42-453E-AC7B-8532BA8778B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B154DA32-5F42-453E-AC7B-8532BA8778B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1355173F-39B6-4D04-A7F1-B3F903B6A7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1355173F-39B6-4D04-A7F1-B3F903B6A7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1355173F-39B6-4D04-A7F1-B3F903B6A7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1355173F-39B6-4D04-A7F1-B3F903B6A7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245C26F8-81AD-47DB-B5E6-8D4BEF9B47F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245C26F8-81AD-47DB-B5E6-8D4BEF9B47F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245C26F8-81AD-47DB-B5E6-8D4BEF9B47F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245C26F8-81AD-47DB-B5E6-8D4BEF9B47F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

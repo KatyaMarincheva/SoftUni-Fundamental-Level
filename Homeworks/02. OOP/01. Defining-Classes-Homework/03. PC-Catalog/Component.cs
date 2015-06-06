@@ -2,7 +2,7 @@
 
 namespace _03.PC_Catalog
 {
-    class Component : IComparable
+    public class Component : IComparable
     {
         // fields
         private string name;
@@ -11,7 +11,9 @@ namespace _03.PC_Catalog
         // constructors
         public Component(string name, decimal price, string details)
         {
-            
+            this.Name = name;
+            this.Price = price;
+            this.Details = details;
         }
 
         public Component(string name, decimal price)

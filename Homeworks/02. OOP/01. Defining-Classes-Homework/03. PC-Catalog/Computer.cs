@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Threading;
 
 namespace _03.PC_Catalog
 {
-    class Computer : IComparable
+    public class Computer : IComparable
     {
         // fields
         private string name;
@@ -13,7 +15,8 @@ namespace _03.PC_Catalog
         // constructor
         public Computer(string name, List<Component> components)
         {
-            
+            this.Name = name;
+            this.Components = components;
         }
 
         // properties
@@ -55,11 +58,11 @@ namespace _03.PC_Catalog
         // implementing the IComparable interface
         public int CompareTo(object obj)
         {
-            var component = (Component)obj;
-            return this.Price.CompareTo(component.Price);
+            var computer = (Computer)obj;
+            return this.Price.CompareTo(computer.Price);
         }
 
-        public decimal CalculateComputerPrice(Computer computer)
+        public static decimal CalculateComputerPrice(Computer computer)
         {
             var components = computer.Components;
 
@@ -71,6 +74,25 @@ namespace _03.PC_Catalog
             var list = this.Components;
             list.Add(component);
             this.Components = list;
+        }
+
+        public override string ToString()
+        {
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("bg-BG");
+
+            var description = new string('-', 50) + "\r\n";
+            description += "COMPUTER DESCRIPTION\r\n";
+            description += new string('-', 50) + "\r\n";
+            description += "Name: " + this.Name + "\r\n";
+            description += "Components:\r\n";
+
+            description = this.Components.Aggregate(description, (current, component) => 
+                current + string.Format("\t{0}{2} ({1:c2})\r\n", component.Name, component.Price, component.Details ?? ""));
+
+            description += string.Format("Total price: {0:c2}\r\n", this.Price);
+            description += new string('-', 50) + "\r\n";
+
+            return description;
         }
     }
 }
