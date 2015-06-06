@@ -29,14 +29,14 @@ namespace ClassLaptopTests
         {
             var laptopWithFullInfo = new Laptop(
                 "Lenovo Yoga 2 Pro",
+                2259.00m,
                 "Lenovo",
+                "13.3 inches (33.78 cm) – 3200 x 1800 (QHD+), IPS sensor display)",
                 "Intel Core i5-4210U (2-core, 1.70 - 2.70 GHz, 3MB cache)",
                 "8 GB",
-                "Intel HD Graphics 4400",
                 "128GB SSD",
-                "13.3 inches (33.78 cm) – 3200 x 1800 (QHD+), IPS sensor display)",
-                new Battery("", 4, 2550, 4.5),
-                2259.00m);
+                "Intel HD Graphics 4400",
+                new Battery("", 4, 2550, 4.5));
         }
 
         [TestMethod]
@@ -45,14 +45,14 @@ namespace ClassLaptopTests
         {
             var laptopWithFullInfo = new Laptop(
                 "Lenovo Yoga 2 Pro",
+                2259.00m,
                 "Lenovo",
+                "13.3 inches (33.78 cm) – 3200 x 1800 (QHD+), IPS sensor display)",
                 "Intel Core i5-4210U (2-core, 1.70 - 2.70 GHz, 3MB cache)",
                 "8 GB",
-                "Intel HD Graphics 4400",
                 "128GB SSD",
-                "13.3 inches (33.78 cm) – 3200 x 1800 (QHD+), IPS sensor display)",
-                new Battery("Li-Ion", -4, 2550, 4.5),
-                2259.00m);
+                "Intel HD Graphics 4400",
+                new Battery("Li-Ion", -4, 2550, 4.5));
         }
 
         [TestMethod]
@@ -61,14 +61,14 @@ namespace ClassLaptopTests
         {
             var laptopWithFullInfo = new Laptop(
                 "Lenovo Yoga 2 Pro",
+                2259.00m,
                 "Lenovo",
+                "13.3 inches (33.78 cm) – 3200 x 1800 (QHD+), IPS sensor display)",
                 "Intel Core i5-4210U (2-core, 1.70 - 2.70 GHz, 3MB cache)",
                 "8 GB",
-                "Intel HD Graphics 4400",
                 "128GB SSD",
-                "13.3 inches (33.78 cm) – 3200 x 1800 (QHD+), IPS sensor display)",
-                new Battery("Li-Ion", 4, -2550, 4.5),
-                2259.00m);
+                "Intel HD Graphics 4400",
+                new Battery("Li-Ion", 4, -2550, 4.5));
         }
 
         [TestMethod]
@@ -77,14 +77,14 @@ namespace ClassLaptopTests
         {
             var laptopWithFullInfo = new Laptop(
                 "Lenovo Yoga 2 Pro",
+                2259.00m,
                 "Lenovo",
+                "13.3 inches (33.78 cm) – 3200 x 1800 (QHD+), IPS sensor display)",
                 "Intel Core i5-4210U (2-core, 1.70 - 2.70 GHz, 3MB cache)",
                 "8 GB",
-                "Intel HD Graphics 4400",
                 "128GB SSD",
-                "13.3 inches (33.78 cm) – 3200 x 1800 (QHD+), IPS sensor display)",
-                new Battery("Li-Ion", 4, 2550, -4.5),
-                2259.00m);
+                "Intel HD Graphics 4400",
+                new Battery("Li-Ion", 4, 2550, -4.5));
         }
 
         [TestMethod]
@@ -92,14 +92,14 @@ namespace ClassLaptopTests
         {
             var laptopWithFullInfo = new Laptop(
                 "Lenovo Yoga 2 Pro",
+                2259.00m,
                 "Lenovo",
+                "13.3 inches (33.78 cm) – 3200 x 1800 (QHD+), IPS sensor display)",
                 "Intel Core i5-4210U (2-core, 1.70 - 2.70 GHz, 3MB cache)",
                 "8 GB",
-                "Intel HD Graphics 4400",
                 "128GB SSD",
-                "13.3 inches (33.78 cm) – 3200 x 1800 (QHD+), IPS sensor display)",
-                new Battery("Li-Ion", 4, 2550, 4.5),
-                2259.00m);
+                "Intel HD Graphics 4400",
+                new Battery("Li-Ion", 4, 2550, 4.5));
         }
 
         [TestMethod]
