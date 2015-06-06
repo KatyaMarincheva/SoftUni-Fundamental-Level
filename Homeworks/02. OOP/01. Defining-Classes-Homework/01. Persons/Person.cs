@@ -6,14 +6,15 @@ namespace _01.Persons
     public class Person
     {
         // fields
-        private const string EmailPattern = @"(?<=\s|^)([A-Za-z0-9]+(?:[_.-][A-Za-z0-9]+)*@(?:[A-Za-z]+\-?[A-Za-z]+\.)+[A-Za-z]+\-?[A-Za-z]+)\b";
+        private const string EmailPattern = @"(?<=\s|^)([A-Za-z0-9]*(?:[_.-][A-Za-z0-9]*)*@(?:[A-Za-z]*\-?[A-Za-z]*\.)*[A-Za-z]*\-?[A-Za-z]*)\b";
 
         private string name;
         private int age;
         private string email;
 
         // constructors
-        public Person(string name, int age) : this(name, age, null)
+        public Person(string name, int age) 
+            : this(name, age, null)
         {
             
         }
@@ -59,7 +60,7 @@ namespace _01.Persons
             get { return this.email; }
             set
             {
-                if (!Regex.IsMatch(value, EmailPattern))
+                if (value != null && !Regex.IsMatch(value, EmailPattern))
                 {
                     throw new ArgumentException(@"Email should contain ""@""", "email");
                 }
@@ -68,6 +69,7 @@ namespace _01.Persons
             }
         }
 
+        // methods
         public override string ToString()
         {
             return string.Format("Name: {0}\nAge: {1}\nEmail Address: {2}", 

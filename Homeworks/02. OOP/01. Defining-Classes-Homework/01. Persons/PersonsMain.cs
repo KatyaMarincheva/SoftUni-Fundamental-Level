@@ -9,11 +9,11 @@ namespace _01.Persons
             // 1st test option:
             // You can run the Unit Tests from the Visual Studio menu: 
             // BUILD -> Build Solution
-            // TEST -> Windows -> Test Explorer (you will see in the Test Explorer window: Not Run Tests (5)
+            // TEST -> Windows -> Test Explorer (you will see in the Test Explorer window: Not Run Tests (7)
             // and above it:  Run All
             // Please, click on Run All, and read the ClassPersonTests.cs file for more details
 
-            // 2nd test input
+            // 2nd test option: input
             Console.Write("Please, enter a name: ");
             var name = Console.ReadLine();
             Console.Write("Please, enter a a value for age: ");
@@ -21,11 +21,15 @@ namespace _01.Persons
             Console.Write("Please, enter an email: ");
             var email = Console.ReadLine();
 
-            // try to create a person with the above input data
+            // try to create a person with the above input data - 
+            // bug ?, if you uncomment both person1 and person2 below, one single input will create 2 persons instead of one
             try
             {
-                var person = new Person(name, age, email);
-                Console.WriteLine(person);
+                var person1 = new Person(name, age);
+                Console.WriteLine(person1);
+
+                //var person2 = new Person(name, age, email);
+                //Console.WriteLine(person2);
             }
             catch (Exception e) // check for exceptions - in case of multipple exceptions, only the first one is displayed
             {
