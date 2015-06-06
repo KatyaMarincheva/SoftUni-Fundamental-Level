@@ -48,7 +48,7 @@ namespace ClassPersonTests
         [TestMethod]
         public void Person_PersonWithValidNameAndAge_ShouldPassTest()
         {
-            Person personWithValidNameAndAge = new Person("X", 1);
+            var personWithValidNameAndAge = new Person("X", 1);
         }
 
         [TestMethod]
