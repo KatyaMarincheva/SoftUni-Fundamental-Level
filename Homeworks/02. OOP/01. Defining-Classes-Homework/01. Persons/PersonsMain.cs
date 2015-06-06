@@ -9,7 +9,7 @@ namespace _01.Persons
             // 1st test option:
             // You can run the Unit Tests from the Visual Studio menu: 
             // BUILD -> Build Solution
-            // TEST -> Windows -> Test Explorer (you will see in the Test Explorer window: Not Run Tests (7)
+            // TEST -> Windows -> Test Explorer (you will see in the Test Explorer window: Not Run Tests or Passed Tests
             // and above it:  Run All
             // Please, click on Run All, and read the ClassPersonTests.cs file for more details
 

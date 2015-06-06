@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. LaptopShop", "02. Lapto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLaptopTests", "ClassLaptopTests\ClassLaptopTests.csproj", "{AF82E409-57ED-4207-B52F-573D8C055409}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. PC-Catalog", "03. PC-Catalog\03. PC-Catalog.csproj", "{B154DA32-5F42-453E-AC7B-8532BA8778B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AF82E409-57ED-4207-B52F-573D8C055409}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF82E409-57ED-4207-B52F-573D8C055409}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF82E409-57ED-4207-B52F-573D8C055409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B154DA32-5F42-453E-AC7B-8532BA8778B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B154DA32-5F42-453E-AC7B-8532BA8778B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B154DA32-5F42-453E-AC7B-8532BA8778B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B154DA32-5F42-453E-AC7B-8532BA8778B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

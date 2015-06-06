@@ -10,38 +10,34 @@ namespace _02.LaptopShop
         private decimal price;
 
         // constructors
-        public Laptop(string model, string manufacturer, string processor, string ram, string graphicsCard, string hdd,
-            string screen, Battery laptopBattery, decimal price)
+        public Laptop(string model, decimal price, string manufacturer, string screen, string processor, string ram, string hdd,
+             string graphicsCard, Battery laptopBattery)
         {
             this.Model = model;
+            this.Price = price;
             this.Manufacturer = manufacturer;
+            this.Screen = screen;
             this.Processor = processor;
             this.RAM = ram;
-            this.GraphicsCard = graphicsCard;
             this.HDD = hdd;
-            this.Screen = screen;
+            this.GraphicsCard = graphicsCard;
             this.LaptopBattery = laptopBattery;
-            this.Price = price;
         }
 
-        public Laptop(string model, string manufacturer, string processor, string ram, string hdd,
-            string screen, decimal price)
-                : this(model, manufacturer, processor, ram, null, hdd,
-                screen, null, price)
+        public Laptop(string model, decimal price, string manufacturer, string screen, string processor, string ram, string hdd)
+                : this(model, price, manufacturer, screen, processor, ram, hdd, null, null)
         {
 
         }
 
-        public Laptop(string model, string manufacturer, string screen, decimal price)
-            : this(model, manufacturer, null, null, null, null,
-            screen, null, price)
+        public Laptop(string model, decimal price, string manufacturer, string screen)
+            : this(model, price, manufacturer, screen, null, null, null, null, null)
         {
 
         }
 
         public Laptop(string model, decimal price)
-            : this(model, null, null, null, null, null,
-            null, null, price)
+            : this(model, price, null, null, null, null, null, null, null)
         {
 
         }
