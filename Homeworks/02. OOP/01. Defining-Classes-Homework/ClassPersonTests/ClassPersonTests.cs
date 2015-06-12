@@ -1,6 +1,5 @@
 ﻿using _01.Persons;
 using System;
-using System.Security.Cryptography.X509Certificates;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ClassPersonTests
