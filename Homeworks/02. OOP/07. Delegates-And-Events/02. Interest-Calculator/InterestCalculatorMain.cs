@@ -1,0 +1,42 @@
+﻿namespace _02.Interest_Calculator
+{
+    using System;
+
+    public class InterestCalculatorMain
+    {
+        public const int MonthsInYear = 12;
+
+        public static decimal GetSimpleInterest(decimal money, decimal interest, int years)
+        {
+            decimal interestFactor = 1 + (interest * years);
+            decimal balance = money * interestFactor;
+
+            return decimal.Round(balance, 4);
+        }
+
+        public static decimal GetCompoundInterest(decimal money, decimal interest, int years)
+        {
+            decimal interestFactorBase = 1 + (interest / MonthsInYear);
+            int interestFactorPower = years * MonthsInYear;
+
+            decimal interestFactor = 1;
+            for (int i = 0; i < interestFactorPower; i++)
+            {
+                interestFactor *= interestFactorBase;
+            }
+
+            decimal balance = money * interestFactor;
+
+            return decimal.Round(balance, 4);
+        }
+
+        static void Main()
+        {
+            InterestCalculator compoundInterest = new InterestCalculator(500m, 0.056m, 10, GetCompoundInterest);
+            Console.WriteLine(compoundInterest.Balance);
+
+            InterestCalculator simpleInterest = new InterestCalculator(2500m, 0.072m, 15, GetSimpleInterest);
+            Console.WriteLine(simpleInterest.Balance);
+        }
+    }
+}
