@@ -1,6 +1,6 @@
 ﻿namespace _04.SULS.Interfaces
 {
-    interface IStudent : IPerson
+    internal interface IStudent : IPerson
     {
         int StudentNumber { get; }
 

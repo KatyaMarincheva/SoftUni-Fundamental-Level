@@ -1,10 +1,10 @@
-﻿using _03.PC_Catalog;
-using System;
-using System.Collections.Generic;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace ClassComputerTests
+﻿namespace ClassComputerTests
 {
+    using System;
+    using System.Collections.Generic;
+    using _03.PC_Catalog;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
     [TestClass]
     public class ClassComputerTests
     {
@@ -15,7 +15,7 @@ namespace ClassComputerTests
             var componentsList = new List<Component>();
             componentsList.Add(new Component("HDD", 90));
 
-            var pc = new Computer("", componentsList);
+            var pc = new Computer(string.Empty, componentsList);
         }
 
         [TestMethod]

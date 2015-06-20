@@ -1,9 +1,9 @@
-﻿using _02.LaptopShop;
-using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace ClassLaptopTests
+﻿namespace ClassLaptopTests
 {
+    using System;
+    using _02.LaptopShop;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
     [TestClass]
     public class ClassLaptopTests
     {
@@ -13,7 +13,7 @@ namespace ClassLaptopTests
         [ExpectedException(typeof(ArgumentNullException))]
         public void Model_WhenModelIsEmpty_ShouldThrowArgumentNullException()
         {
-            var laptopWithEmptyModel = new Laptop("", 699.00m);
+            var laptopWithEmptyModel = new Laptop(string.Empty, 699.00m);
         }
 
         [TestMethod]
@@ -36,7 +36,7 @@ namespace ClassLaptopTests
                 "8 GB",
                 "128GB SSD",
                 "Intel HD Graphics 4400",
-                new Battery("", 4, 2550, 4.5));
+                new Battery(string.Empty, 4, 2550, 4.5));
         }
 
         [TestMethod]

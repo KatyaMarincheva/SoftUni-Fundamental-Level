@@ -1,8 +1,8 @@
-﻿using System;
-
-namespace _04.SULS.People
+﻿namespace _04.SULS.People
 {
-    class SeniorTrainer : Trainer
+    using System;
+
+    internal class SeniorTrainer : Trainer
     {
         // constructor
         public SeniorTrainer(string firstName, string lastName, int age)

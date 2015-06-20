@@ -1,6 +1,6 @@
 ﻿namespace _04.SULS.People
 {
-    class JuniorTrainer : Trainer
+    internal class JuniorTrainer : Trainer
     {
         // constructor
         public JuniorTrainer(string firstName, string lastName, int age)

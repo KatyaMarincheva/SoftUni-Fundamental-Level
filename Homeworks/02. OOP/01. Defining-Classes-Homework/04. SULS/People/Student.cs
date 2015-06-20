@@ -1,9 +1,9 @@
-﻿using System;
-using _04.SULS.Interfaces;
-
-namespace _04.SULS.People
+﻿namespace _04.SULS.People
 {
-    abstract class Student : Person, IStudent
+    using System;
+    using _04.SULS.Interfaces;
+
+    internal abstract class Student : Person, IStudent
     {
         // fields
         private int studentNumber;
@@ -20,7 +20,11 @@ namespace _04.SULS.People
         // properties
         public int StudentNumber
         {
-            get { return this.studentNumber; }
+            get
+            {
+                return this.studentNumber;
+            }
+
             set
             {
                 if (value < 1000 || value > 10000)
@@ -34,7 +38,11 @@ namespace _04.SULS.People
 
         public double AverageGrade
         {
-            get { return this.averageGrade; }
+            get
+            {
+                return this.averageGrade;
+            }
+
             set
             {
                 if (value < 2 || value > 6)
@@ -51,7 +59,7 @@ namespace _04.SULS.People
         {
             var result = base.ToString();
             result += "Student number: " + this.StudentNumber + "\r\n";
-            result += String.Format("Average grade: {0:f2}\r\n", this.AverageGrade);
+            result += string.Format("Average grade: {0:f2}\r\n", this.AverageGrade);
 
             return result;
         }

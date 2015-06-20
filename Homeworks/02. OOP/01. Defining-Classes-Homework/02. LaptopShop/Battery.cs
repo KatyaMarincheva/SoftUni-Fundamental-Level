@@ -1,8 +1,7 @@
-﻿using System;
-using System.Runtime.Remoting.Channels;
-
-namespace _02.LaptopShop
+﻿namespace _02.LaptopShop
 {
+    using System;
+
     public class Battery
     {
         // fields
@@ -23,7 +22,11 @@ namespace _02.LaptopShop
         // properties
         public string Type
         {
-            get { return this.type; }
+            get
+            {
+                return this.type;
+            }
+
             set
             {
                 if (string.IsNullOrWhiteSpace(value))
@@ -37,7 +40,11 @@ namespace _02.LaptopShop
 
         public int NumberOfCells
         {
-            get { return this.numberOfCells; }
+            get
+            {
+                return this.numberOfCells;
+            }
+
             set
             {
                 if (value < 0)
@@ -51,7 +58,11 @@ namespace _02.LaptopShop
 
         public int Capacity
         {
-            get { return this.capacity; }
+            get
+            {
+                return this.capacity;
+            }
+
             set
             {
                 if (value < 0)
@@ -65,7 +76,11 @@ namespace _02.LaptopShop
 
         public double BatteryLife
         {
-            get { return this.batteryLife; }
+            get
+            {
+                return this.batteryLife;
+            }
+
             set
             {
                 if (value < 0)
@@ -80,7 +95,8 @@ namespace _02.LaptopShop
         // methods
         public override string ToString()
         {
-            return string.Format("{0}, {1}-cells, {2} mAh",
+            return string.Format(
+                "{0}, {1}-cells, {2} mAh",
                 this.Type, 
                 this.NumberOfCells, 
                 this.Capacity);

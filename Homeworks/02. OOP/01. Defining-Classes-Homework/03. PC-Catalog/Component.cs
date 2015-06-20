@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace _03.PC_Catalog
+﻿namespace _03.PC_Catalog
 {
+    using System;
+
     public class Component : IComparable
     {
         // fields
@@ -18,14 +18,17 @@ namespace _03.PC_Catalog
 
         public Component(string name, decimal price)
             : this(name, price, null)
-        {
-            
+        {           
         }
 
         // properties
         public string Name
         {
-            get { return this.name; }
+            get
+            {
+                return this.name;
+            }
+
             set
             {
                 if (string.IsNullOrWhiteSpace(value))
@@ -41,7 +44,11 @@ namespace _03.PC_Catalog
 
         public decimal Price
         {
-            get { return this.price; }
+            get
+            {
+                return this.price;
+            }
+
             set
             {
                 if (value < 0.0m)
@@ -57,7 +64,7 @@ namespace _03.PC_Catalog
         // implementing the IComparable interface
         public int CompareTo(object obj)
         {
-            var component = (Component) obj;
+            var component = (Component)obj;
             return this.Price.CompareTo(component.Price);
         }
     }

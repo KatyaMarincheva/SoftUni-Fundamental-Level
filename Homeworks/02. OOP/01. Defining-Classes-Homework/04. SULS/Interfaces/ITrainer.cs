@@ -1,6 +1,6 @@
 ﻿namespace _04.SULS.Interfaces
 {
-    interface ITrainer : IPerson
+    internal interface ITrainer : IPerson
     {
         void CreateCourse(string courseName);
     }

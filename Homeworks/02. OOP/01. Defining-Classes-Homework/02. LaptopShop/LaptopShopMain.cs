@@ -1,4 +1,4 @@
-﻿/* Problem 2.	Laptop Shop
+﻿/* Problem 2. Laptop Shop
 Define a class Laptop that holds the following information about a laptop device: model, manufacturer, processor, 
  * RAM, graphics card, HDD, screen, battery, battery life in hours and price.
 •	The model and price are mandatory. All other values are optional.
@@ -11,13 +11,14 @@ o	Tip: override the ToString() method
  * Throw exceptions when improper data is entered.
  */
 
-using System;
-
-namespace _02.LaptopShop
+namespace _02.LaptopShopMain
 {
-    class LaptopShopMain
+    using System;
+    using LaptopShop;
+
+    internal class LaptopShopMain
     {
-        static void Main()
+        internal static void Main()
         {
             // 1st test option:
             // You can run the Unit Tests from the Visual Studio menu: 

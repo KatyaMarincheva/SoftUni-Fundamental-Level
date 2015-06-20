@@ -1,4 +1,4 @@
-﻿/* Problem 1.	Persons
+﻿/* Problem 1. Persons
 Define a class Person that has name, age and email. The name and age are mandatory. The email is optional. 
  * Define properties that accept non-empty name and age in the range [1 ... 100]. In case of invalid arguments, 
  * throw an exception. Define a property for the email that accepts either null or non-empty string containing '@'. 
@@ -7,13 +7,13 @@ Define a class Person that has name, age and email. The name and age are mandato
  * Implement the ToString() method to enable printing persons at the console.
  */
 
-using System;
-
 namespace _01.Persons
 {
+    using System;
+
     public class PersonsMain
     {
-        static void Main()
+        public static void Main()
         {
             // 1st test option:
             // You can run the Unit Tests from the Visual Studio menu: 
@@ -30,17 +30,20 @@ namespace _01.Persons
             Console.Write("Please, enter an email: ");
             var email = Console.ReadLine();
 
-            // try to create a person with the above input data - 
-            // bug ?, if you uncomment both person1 and person2 below, one single input will create 2 persons instead of one
+            // try to create a person with the above input data
+            // check for exceptions - in case of multipple exceptions, only the first one is displayed
             try
             {
-                var person1 = new Person(name, age);
-                Console.WriteLine(person1);
+                if (email != string.Empty)
+                {
+                    var person1 = new Person(name, age);
+                    Console.WriteLine(person1);
+                }
 
-                //var person2 = new Person(name, age, email);
-                //Console.WriteLine(person2);
+                var person2 = new Person(name, age, email);
+                Console.WriteLine(person2);
             }
-            catch (Exception e) // check for exceptions - in case of multipple exceptions, only the first one is displayed
+            catch (Exception e) 
             {
                 Console.WriteLine("Error: {0}\n{1}", e.GetType(), e.Message);
             }

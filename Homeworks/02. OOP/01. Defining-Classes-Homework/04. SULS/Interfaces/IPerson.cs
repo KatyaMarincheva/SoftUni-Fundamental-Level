@@ -1,6 +1,6 @@
 ﻿namespace _04.SULS.Interfaces
 {
-    interface IPerson
+    internal interface IPerson
     {
         string FirstName { get; }
 

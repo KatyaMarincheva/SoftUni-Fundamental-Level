@@ -1,9 +1,9 @@
-﻿using System;
-using _04.SULS.Interfaces;
-
-namespace _04.SULS.People
+﻿namespace _04.SULS.People
 {
-    abstract class Person : IPerson
+    using System;
+    using _04.SULS.Interfaces;
+
+    internal abstract class Person : IPerson
     {
         // fields
         private string firstName;
@@ -21,7 +21,11 @@ namespace _04.SULS.People
         // properties
         public string FirstName
         {
-            get { return this.firstName; }
+            get
+            {
+                return this.firstName;
+            }
+
             set
             {
                 if (string.IsNullOrWhiteSpace(value))
@@ -35,7 +39,11 @@ namespace _04.SULS.People
 
         public string LastName
         {
-            get { return this.lastName; }
+            get
+            {
+                return this.lastName;
+            }
+
             set
             {
                 if (string.IsNullOrWhiteSpace(value))
@@ -49,7 +57,11 @@ namespace _04.SULS.People
 
         public int Age
         {
-            get { return this.age; }
+            get
+            {
+                return this.age;
+            }
+
             set
             {
                 if (value < 0 || value > 100)

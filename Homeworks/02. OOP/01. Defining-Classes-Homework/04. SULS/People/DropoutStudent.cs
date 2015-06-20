@@ -1,8 +1,8 @@
-﻿using System;
-
-namespace _04.SULS.People
+﻿namespace _04.SULS.People
 {
-    class DropoutStudent : Student
+    using System;
+
+    internal class DropoutStudent : Student
     {
         // fields
         private string dropoutReason;
@@ -17,7 +17,11 @@ namespace _04.SULS.People
         // specific property
         public string DropoutReason
         {
-            get { return this.dropoutReason; }
+            get
+            {
+                return this.dropoutReason;
+            }
+
             set
             {
                 if (string.IsNullOrWhiteSpace(value))

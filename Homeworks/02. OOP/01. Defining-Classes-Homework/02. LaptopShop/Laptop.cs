@@ -1,10 +1,9 @@
-﻿using System;
-using System.Globalization;
-using System.Runtime.InteropServices;
-using System.Threading;
-
-namespace _02.LaptopShop
+﻿namespace _02.LaptopShop
 {
+    using System;
+    using System.Globalization;
+    using System.Threading;
+
     public class Laptop
     {
         // fields
@@ -12,8 +11,16 @@ namespace _02.LaptopShop
         private decimal price;
 
         // constructors
-        public Laptop(string model, decimal price, string manufacturer, string screen, string processor, string ram, string hdd,
-             string graphicsCard, Battery laptopBattery)
+        public Laptop(
+            string model, 
+            decimal price, 
+            string manufacturer, 
+            string screen, 
+            string processor, 
+            string ram, 
+            string hdd,
+            string graphicsCard, 
+            Battery laptopBattery)
         {
             this.Model = model;
             this.Price = price;
@@ -29,31 +36,33 @@ namespace _02.LaptopShop
         public Laptop(string model, decimal price, string manufacturer, string screen, string processor, string ram, string hdd)
                 : this(model, price, manufacturer, screen, processor, ram, hdd, null, null)
         {
-
         }
 
         public Laptop(string model, decimal price, string manufacturer, string screen)
             : this(model, price, manufacturer, screen, null, null, null, null, null)
         {
-
         }
 
         public Laptop(string model, decimal price)
             : this(model, price, null, null, null, null, null, null, null)
         {
-
         }
 
         // properties
         public string Model
         {
-            get { return this.model; }
+            get
+            {
+                return this.model;
+            }
+
             set
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
                     throw new ArgumentNullException("model", "Model info cannot be empty.");
                 }
+
                 this.model = value;
             }
         }
@@ -74,7 +83,11 @@ namespace _02.LaptopShop
 
         public decimal Price
         {
-            get { return this.price; }
+            get
+            {
+                return this.price;
+            }
+
             set
             {
                 if (value < 0.0m)
@@ -92,8 +105,9 @@ namespace _02.LaptopShop
             Thread.CurrentThread.CurrentCulture = new CultureInfo("bg-BG");
 
             var description = new string('-', 85) + "\r\n";
-            description += string.Format("|{0}|\r\n", "laptop description".PadLeft(((83 - "laptop description".Length) / 2)
-                                + "laptop description".Length).PadRight(83));
+            description += 
+                string.Format("|{0}|\r\n", "laptop description".PadLeft(((83 - "laptop description".Length) / 2)
+                + "laptop description".Length).PadRight(83));
             description += new string('-', 85) + "\r\n";
 
             description += string.Format("{0, -15}| {1, 66} |\r\n", "| model", this.Model);

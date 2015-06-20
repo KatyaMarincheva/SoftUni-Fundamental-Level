@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Threading;
-
-namespace _03.PC_Catalog
+﻿namespace _03.PC_Catalog
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Globalization;
+    using System.Linq;
+    using System.Threading;
+
     public class Computer : IComparable
     {
         // fields
@@ -22,7 +22,11 @@ namespace _03.PC_Catalog
         // properties
         public string Name
         {
-            get { return this.name; }
+            get
+            {
+                return this.name;
+            }
+
             set
             {
                 if (string.IsNullOrWhiteSpace(value))
@@ -36,7 +40,11 @@ namespace _03.PC_Catalog
 
         public List<Component> Components
         {
-            get { return this.components; }
+            get
+            {
+                return this.components;
+            }
+
             set
             {
                 if (value.Count == 0)
@@ -54,19 +62,18 @@ namespace _03.PC_Catalog
         }
 
         // methods
+        public static decimal CalculateComputerPrice(Computer computer)
+        {
+            var components = computer.Components;
+
+            return components.Sum(component => component.Price);
+        }
 
         // implementing the IComparable interface
         public int CompareTo(object obj)
         {
             var computer = (Computer)obj;
             return this.Price.CompareTo(computer.Price);
-        }
-
-        public static decimal CalculateComputerPrice(Computer computer)
-        {
-            var components = computer.Components;
-
-            return components.Sum(component => component.Price);
         }
 
         public void AddComponent(Component component)
@@ -85,9 +92,11 @@ namespace _03.PC_Catalog
             description += new string('-', 50) + "\r\n";
             description += "Name: " + this.Name + "\r\n";
             description += "Components:\r\n";
-
             description = this.Components.Aggregate(description, (current, component) => 
-                current + string.Format("\t{0}{2} ({1:c2})\r\n", component.Name, component.Price, component.Details ?? ""));
+                current + string.Format("\t{0}{2} ({1:c2})\r\n", 
+                component.Name, 
+                component.Price, 
+                component.Details ?? string.Empty));
 
             description += string.Format("Total price: {0:c2}\r\n", this.Price);
             description += new string('-', 50) + "\r\n";

@@ -1,8 +1,8 @@
-﻿using System;
-using System.Text.RegularExpressions;
-
-namespace _01.Persons
+﻿namespace _01.Persons
 {
+    using System;
+    using System.Text.RegularExpressions;
+
     public class Person
     {
         // fields
@@ -15,8 +15,7 @@ namespace _01.Persons
         // constructors
         public Person(string name, int age) 
             : this(name, age, null)
-        {
-            
+        {            
         }
 
         public Person(string name, int age, string email)
@@ -29,7 +28,11 @@ namespace _01.Persons
         // properties
         public string Name
         {
-            get { return this.name; }
+            get
+            {
+                return this.name;
+            }
+
             set
             {
                 if (string.IsNullOrWhiteSpace(value))
@@ -43,7 +46,11 @@ namespace _01.Persons
 
         public int Age
         {
-            get { return this.age; }
+            get
+            {
+                return this.age;
+            }
+
             set
             {
                 if (value < 1 || value > 100)
@@ -57,7 +64,11 @@ namespace _01.Persons
 
         public string Email
         {
-            get { return this.email; }
+            get
+            {
+                return this.email;
+            }
+
             set
             {
                 if (value != null && !Regex.IsMatch(value, EmailPattern))
@@ -72,7 +83,8 @@ namespace _01.Persons
         // methods
         public override string ToString()
         {
-            return string.Format("Name: {0}\nAge: {1}\nEmail Address: {2}", 
+            return string.Format(
+                "Name: {0}\nAge: {1}\nEmail Address: {2}", 
                 this.Name, 
                 this.Age, 
                 this.Email ?? "not set");

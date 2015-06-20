@@ -1,4 +1,4 @@
-﻿/* Problem 3.	PC Catalog
+﻿/* Problem 3. PC Catalog
 Define a class Computer that holds name, several components and price. The components (processor, graphics card, motherboard, etc.) 
  * should be objects of class Component, which holds name, details (optional) and price. 
 •	Define several constructors that take different sets of arguments. Use proper variable types. Use properties to validate the data. 
@@ -8,14 +8,14 @@ Define a class Computer that holds name, several components and price. The compo
 •	Create several Computer objects, sort them by price, and print them on the console using the created display method.
  */
 
-using System;
-using System.Collections.Generic;
-
 namespace _03.PC_Catalog
 {
-    class PCCatalogMain
+    using System;
+    using System.Collections.Generic;
+
+    internal class PCCatalogMain
     {
-        static void Main()
+        internal static void Main()
         {            
             // 1st test option:
             // You can run the Unit Tests from the Visual Studio menu: 
@@ -63,7 +63,6 @@ namespace _03.PC_Catalog
             componentsList4.Add(new Component("CPU", 900));
 
             catalog.Add(new Computer("Expensive", componentsList4));
-
 
             catalog.Sort(); // IComparable interface implemented on Computer class
             Console.WriteLine("\r\n" + new string('-', 50) + "\r\n" + "COMPUTER CATALOG");

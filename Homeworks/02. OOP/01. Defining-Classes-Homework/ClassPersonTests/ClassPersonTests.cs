@@ -1,9 +1,9 @@
-﻿using _01.Persons;
-using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace ClassPersonTests
+﻿namespace ClassPersonTests
 {
+    using System;
+    using _01.Persons;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
     [TestClass]
     public class ClassPersonTests
     {
@@ -13,11 +13,11 @@ namespace ClassPersonTests
         [ExpectedException(typeof(ArgumentNullException))]
         public void Name_WhenNameIsEmpty_ShouldThrowArgumentNullException()
         {
-            var personWithEmptyName = new Person("", 12);
+            var personWithEmptyName = new Person(string.Empty, 12);
         }
 
         [TestMethod]
-        [ExpectedException(typeof (ArgumentOutOfRangeException))]
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Age_WhenAgeIsMoreThan100_ShouldThrowArgumentOutOfRangeException()
         {
             var personWithAgeMoreThan100 = new Person("H", 122);
@@ -31,7 +31,7 @@ namespace ClassPersonTests
         }
 
         [TestMethod]
-        [ExpectedException(typeof (ArgumentException))]
+        [ExpectedException(typeof(ArgumentException))]
         public void Email_InvalidEmailFormat_ShouldThrowArgumentException()
         {
             var personWithInvalidEmail = new Person("X", 100, "asdf");
@@ -41,7 +41,7 @@ namespace ClassPersonTests
         [ExpectedException(typeof(ArgumentException))]
         public void Email_EmptyStringEmail_ShouldThrowArgumentException()
         {
-            var personWithEmptyStringEmail = new Person("X", 100, "");
+            var personWithEmptyStringEmail = new Person("X", 100, string.Empty);
         }
 
         [TestMethod]

@@ -1,4 +1,4 @@
-﻿/* Problem 4.	** Software University Learning System
+﻿/* Problem 4. ** Software University Learning System
 Define a class Person and the classes Trainer, Student. There are two types of trainers – Junior and Senior Trainer. 
  * There are three types of Students – Graduate, Current and Dropout Student. There are two types of Current Students – 
  * Online and Onsite Student. Implement the given structure below. A class down in the hierarchy should implement the fields, 
@@ -16,16 +16,16 @@ Write a class SULSTest that tests the implemented class structure. Create a list
 Tip: Use the LINQ extension methods Where() and OrderBy() with lambda expressions.
  */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using _04.SULS.People;
-
 namespace _04.SULS
 {
-    class SULSMain
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using _04.SULS.People;
+
+    internal class SULSMain
     {
-        static void Main()
+        internal static void Main()
         {
             // test trainer methods
             var juniorTrainer = new JuniorTrainer("Elena", "Bojilova", 24);

@@ -1,8 +1,8 @@
-﻿using System;
-
-namespace _04.SULS.People
+﻿namespace _04.SULS.People
 {
-    abstract class CurrentStudent : Student
+    using System;
+
+    internal abstract class CurrentStudent : Student
     {
         // fields
         private string currentCourse;
@@ -17,7 +17,11 @@ namespace _04.SULS.People
         // specific property
         public string CurrentCourse
         {
-            get { return this.currentCourse; }
+            get
+            {
+                return this.currentCourse;
+            }
+
             set
             {
                 if (string.IsNullOrWhiteSpace(value))

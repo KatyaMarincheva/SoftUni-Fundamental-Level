@@ -1,9 +1,9 @@
-﻿using System;
-using _04.SULS.Interfaces;
-
-namespace _04.SULS.People
+﻿namespace _04.SULS.People
 {
-    abstract class Trainer : Person, ITrainer
+    using System;
+    using _04.SULS.Interfaces;
+
+    internal abstract class Trainer : Person, ITrainer
     {
         // constructor
         protected Trainer(string firstName, string lastName, int age)

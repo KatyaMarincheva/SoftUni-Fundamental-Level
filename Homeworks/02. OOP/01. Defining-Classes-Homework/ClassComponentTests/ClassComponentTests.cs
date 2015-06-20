@@ -1,10 +1,10 @@
-﻿using _03.PC_Catalog;
-using System;
-using System.Collections.Generic;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace ClassComponentTests
+﻿namespace ClassComponentTests
 {
+    using System;
+    using System.Collections.Generic;
+    using _03.PC_Catalog;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
     [TestClass]
     public class ClassComponentTests
     {
@@ -21,7 +21,7 @@ namespace ClassComponentTests
         public void Name_ComponentWithEmptyName_ShouldThrowArgumentNullException()
         {
             var componentsList = new List<Component>();
-            componentsList.Add(new Component("", 90));
+            componentsList.Add(new Component(string.Empty, 90));
         }
 
         [TestMethod]

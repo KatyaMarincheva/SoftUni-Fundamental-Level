@@ -1,8 +1,8 @@
-﻿using System;
-
-namespace _04.SULS.People
+﻿namespace _04.SULS.People
 {
-    class OnsiteStudent : CurrentStudent
+    using System;
+
+    internal class OnsiteStudent : CurrentStudent
     {
         // fields
         private int numberOfVisits;
@@ -17,7 +17,11 @@ namespace _04.SULS.People
         // specific property
         public int NumberOfVisits
         {
-            get { return this.numberOfVisits; }
+            get
+            {
+                return this.numberOfVisits;
+            }
+
             set
             {
                 if (value < 0)
