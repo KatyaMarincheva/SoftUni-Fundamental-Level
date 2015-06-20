@@ -1,9 +1,9 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using _02.Interest_Calculator;
-
-namespace ClassInterestCalculatorTests
+﻿namespace ClassInterestCalculatorTests
 {
+    using System;
+    using _02.Interest_Calculator;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
     [TestClass]
     public class ClassInterestCalculatorTests
     {

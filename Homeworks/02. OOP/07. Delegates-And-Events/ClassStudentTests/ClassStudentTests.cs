@@ -1,8 +1,8 @@
 ﻿namespace ClassStudentTests
 {
     using System;
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
     using _04.Student;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]
     public class ClassStudentTests
@@ -11,7 +11,7 @@
         [ExpectedException(typeof(ArgumentNullException))]
         public void Name_WhenNameIsEmpty_ShouldThrowArgumentNullException()
         {
-            var personWithEmptyName = new Student("", 12);
+            var personWithEmptyName = new Student(string.Empty, 12);
         }
 
         [TestMethod]
@@ -67,4 +67,3 @@
         }
     }
 }
-

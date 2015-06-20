@@ -30,7 +30,7 @@
             return decimal.Round(balance, 4);
         }
 
-        static void Main()
+        public static void Main()
         {
             InterestCalculator compoundInterest = new InterestCalculator(500m, 0.056m, 10, GetCompoundInterest);
             Console.WriteLine(compoundInterest.Balance);

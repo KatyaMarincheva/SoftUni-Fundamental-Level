@@ -6,9 +6,10 @@
 
     public class InterestCalculator
     {
+        private readonly CalculateInterest calculationMethod;
+
         private decimal interest;
         private int years;
-        private readonly CalculateInterest calculationMethod;
 
         public InterestCalculator(decimal money, decimal interest, int years, CalculateInterest calculationMethod)
         {

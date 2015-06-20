@@ -2,9 +2,9 @@
 {
     using System;
 
-    class StudentMain
+    public class StudentMain
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Student student = new Student("Ekaterina", 22);
 

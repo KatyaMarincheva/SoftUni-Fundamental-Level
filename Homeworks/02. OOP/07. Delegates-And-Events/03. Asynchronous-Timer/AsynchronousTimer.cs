@@ -3,7 +3,7 @@
     using System;
     using System.Threading;
 
-    class AsynchronousTimer
+    internal class AsynchronousTimer
     {
         private int ticks;
         private int t;

@@ -3,7 +3,7 @@
     using System;
     using System.Text;
 
-    class AsynchronousTimerMain
+    internal class AsynchronousTimerMain
     {
         private static readonly Encoding EncodingOEMUnitedStates = Encoding.GetEncoding(437);
 
@@ -19,7 +19,7 @@
             Console.WriteLine();
         }
 
-        static void Main()
+        public static void Main()
         {
             // generates a random password
             AsynchronousTimer passGenerator = new AsynchronousTimer(PasswordGenerator, 16, 1000);

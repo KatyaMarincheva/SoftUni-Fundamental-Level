@@ -14,7 +14,8 @@
         }
 
         // returns the max value of the chosen element property in a collection of elements
-        public static TSelector Max<TSource, TSelector>(this IEnumerable<TSource> collection,
+        public static TSelector Max<TSource, TSelector>(
+            this IEnumerable<TSource> collection,
             Func<TSource, TSelector> criterion) where TSelector : IComparable<TSelector>
         {
             TSelector max = criterion(collection.First());
@@ -28,8 +29,9 @@
         }
 
         // returns the min value of the chosen element property in a collection of elements
-        public static TSelector Min<TSource, TSelector>(this IEnumerable<TSource> collection,
-    Func<TSource, TSelector> criterion) where TSelector : IComparable<TSelector>
+        public static TSelector Min<TSource, TSelector>(
+            this IEnumerable<TSource> collection,
+            Func<TSource, TSelector> criterion) where TSelector : IComparable<TSelector>
         {
             TSelector min = criterion(collection.First());
 
@@ -42,15 +44,17 @@
         }
 
         // returns the Max element in a collection of elements (max -min order is defined by a separate criterion Func)
-        public static TSource MaxStudent<TSource, TSelector>(this IEnumerable<TSource> collection,
-    Func<TSource, TSelector> criterion) where TSelector : IComparable<TSelector>
+        public static TSource MaxStudent<TSource, TSelector>(
+            this IEnumerable<TSource> collection,
+            Func<TSource, TSelector> criterion) where TSelector : IComparable<TSelector>
         {
             return collection.OrderByDescending(criterion).First();
         }
 
         // returns the Min element in a collection of elements (max -min order is defined by a separate criterion Func)
-        public static TSource MinStudent<TSource, TSelector>(this IEnumerable<TSource> collection,
-    Func<TSource, TSelector> criterion) where TSelector : IComparable<TSelector>
+        public static TSource MinStudent<TSource, TSelector>(
+            this IEnumerable<TSource> collection,
+            Func<TSource, TSelector> criterion) where TSelector : IComparable<TSelector>
         {
             return collection.OrderBy(criterion).First();
         }
