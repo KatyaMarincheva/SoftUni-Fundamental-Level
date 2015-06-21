@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Galactic GPS", "01. Gal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Fraction Calculator", "02. Fraction Calculator\02. Fraction Calculator.csproj", "{D2B50EAF-5A47-49C3-B8A7-F47D01D1E2FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-04. Genereic List and Version", "03. Genereic List and Version\03-04. Genereic List and Version.csproj", "{3247D81F-72F7-4D9A-B0B7-43E9A205EECC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-04. Generic List and Version", "03. Genereic List and Version\03-04. Generic List and Version.csproj", "{3247D81F-72F7-4D9A-B0B7-43E9A205EECC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassFractionTests", "ClassFractionTests\ClassFractionTests.csproj", "{144BE028-5FDA-45D5-8D4E-B22AD55FF59D}"
 EndProject
