@@ -6,6 +6,15 @@
     {
         public const int MonthsInYear = 12;
 
+        public static void Main()
+        {
+            InterestCalculator compoundInterest = new InterestCalculator(500m, 0.056m, 10, GetCompoundInterest);
+            Console.WriteLine(compoundInterest.Balance);
+
+            InterestCalculator simpleInterest = new InterestCalculator(2500m, 0.072m, 15, GetSimpleInterest);
+            Console.WriteLine(simpleInterest.Balance);
+        }
+
         public static decimal GetSimpleInterest(decimal money, decimal interest, int years)
         {
             decimal interestFactor = 1 + (interest * years);
@@ -28,15 +37,6 @@
             decimal balance = money * interestFactor;
 
             return decimal.Round(balance, 4);
-        }
-
-        public static void Main()
-        {
-            InterestCalculator compoundInterest = new InterestCalculator(500m, 0.056m, 10, GetCompoundInterest);
-            Console.WriteLine(compoundInterest.Balance);
-
-            InterestCalculator simpleInterest = new InterestCalculator(2500m, 0.072m, 15, GetSimpleInterest);
-            Console.WriteLine(simpleInterest.Balance);
         }
     }
 }
