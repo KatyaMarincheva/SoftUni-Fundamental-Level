@@ -1,0 +1,27 @@
+Magazine added
+Magazine added
+Book does not exist
+Book sold
+Book does not exist
+Book removed
+Book does not exist
+Goodbye!
+Total revenue: 4.45
+Book added
+Book added
+Book does not exist
+Book sold
+Book does not exist
+Book removed
+Book does not exist
+Goodbye!
+Total revenue: 4.45
+Book added
+Book added
+Book does not exist
+Book sold
+Book does not exist
+Book removed
+Book does not exist
+Goodbye!
+Total revenue: 4.45
