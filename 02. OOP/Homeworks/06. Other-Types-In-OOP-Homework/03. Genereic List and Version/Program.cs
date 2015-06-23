@@ -5,6 +5,7 @@
 namespace _03.Genereic_List_and_Version
 {
     using System;
+    using System.Runtime.CompilerServices;
 
     /// <summary>
     /// Displays the results from the use of the GenericList class
@@ -74,8 +75,8 @@ namespace _03.Genereic_List_and_Version
 
             // finding the minimal and maximal element in the GenericList<T>
             Console.WriteLine("Finding the minimal and maximal element in the GenericList<T>");
-            Console.WriteLine("The minimal element in the GenericList is {0}", GenericList<int>.Min(list));
-            Console.WriteLine("The maximal element in the GenericList is {0}", GenericList<int>.Max(list));
+            Console.WriteLine("The minimal element in the GenericList is {0}", list.Min());
+            Console.WriteLine("The maximal element in the GenericList is {0}", list.Max());
             Console.WriteLine();
 
             // clearing the list

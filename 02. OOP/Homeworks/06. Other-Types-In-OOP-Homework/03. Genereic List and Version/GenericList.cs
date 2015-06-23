@@ -14,7 +14,7 @@ namespace _03.Genereic_List_and_Version
     /// </summary>
     /// <typeparam name="T">generic type element</typeparam>
     [Version(0, 1)]
-    public class GenericList<T> : IEnumerable
+    public class GenericList<T> : IEnumerable where T : IComparable
     {
         /// <summary>
         /// The default capacity
@@ -29,7 +29,7 @@ namespace _03.Genereic_List_and_Version
         /// <summary>
         /// The count
         /// </summary>
-        private int count = 0;
+        private int currentIndex;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="GenericList{T}"/> class.
@@ -38,6 +38,7 @@ namespace _03.Genereic_List_and_Version
         public GenericList(int initialCapacity = DefaultCapacity)
         {
             this.array = new T[initialCapacity];
+            this.Count = this.currentIndex = 0;
         }
 
         /// <summary>
@@ -47,12 +48,12 @@ namespace _03.Genereic_List_and_Version
         {
             get
             {
-                return this.count;
+                return this.currentIndex;
             }
 
             private set
             {
-                this.count = value;
+                this.currentIndex = value;
             }
         }
 
@@ -91,45 +92,55 @@ namespace _03.Genereic_List_and_Version
         }
 
         /// <summary>
-        /// Finds the min element within the GenericList
+        /// Finds the minimal value element of the CustomList.
         /// </summary>
-        /// <typeparam name="K">IComparable type of generic element</typeparam>
-        /// <param name="list">The GenericList.</param>
-        /// <returns>Returns the lowest-value element of the GenericList</returns>
-        public static K Min<K>(GenericList<K> list)
-            where K : IComparable
+        /// <returns>The minimal value element of the CustomList</returns>
+        /// <exception cref="ArgumentException">The CustomList is empty</exception>
+        public T Min()
         {
-            K min = default(K);
-            foreach (K t in list)
+            if (this.Count == 0)
             {
-                if (min.CompareTo(default(K)) == 0 || min.CompareTo(t) == 1)
+                throw new ArgumentException("The GenericList is empty");
+            }
+
+            T minEelement = this.array[0];
+
+            for (int i = 0; i < this.Count; i++)
+            {
+                if (minEelement.CompareTo(this.array[i]) > 0)
                 {
-                    min = t;
+                    minEelement = this.array[i];
                 }
             }
 
-            return min;
+            return minEelement;
         }
 
         /// <summary>
-        /// Finds the min element within the GenericList
+        /// Finds the maximal value element of the CustomList
         /// </summary>
-        /// <typeparam name="K">IComparable type of generic element</typeparam>
-        /// <param name="list">The GenericList.</param>
-        /// <returns>Returns the highest-value element of the GenericList</returns>
-        public static K Max<K>(GenericList<K> list)
-            where K : IComparable
+        /// <returns>
+        /// The maximal value element of the CustomList
+        /// </returns>
+        /// <exception cref="ArgumentException">The CustomList is empty</exception>
+        public T Max()
         {
-            K max = default(K);
-            foreach (K t in list)
+            if (this.Count == 0)
             {
-                if (max.CompareTo(default(K)) == 0 || max.CompareTo(t) == -1)
+                throw new ArgumentException("The GenericList is empty");
+            }
+
+            T maxEelement = this.array[0];
+
+            for (int i = 0; i < this.Count; i++)
+            {
+                if (maxEelement.CompareTo(this.array[i]) < 0)
                 {
-                    max = t;
+                    maxEelement = this.array[i];
                 }
             }
 
-            return max;
+            return maxEelement;
         }
 
         /// <summary>
@@ -172,13 +183,17 @@ namespace _03.Genereic_List_and_Version
         /// Removes the first occurrence (if any) of the specified element from the GenericList.
         /// </summary>
         /// <param name="elementToRemove">The element to remove.</param>
+        /// <exception cref="ArgumentException">Specified element was not found.</exception>
         public void Remove(T elementToRemove)
         {
             int index = this.IndexOf(elementToRemove);
-            if (index != -1)
+
+            if (index == -1)
             {
-                this.RemoveAt(index);
+                throw new ArgumentException("Specified element was not found.");
             }
+
+            this.RemoveAt(index);
         }
 
         /// <summary>
@@ -186,21 +201,21 @@ namespace _03.Genereic_List_and_Version
         /// </summary>
         /// <param name="index">The index.</param>
         /// <param name="newElement">The new element.</param>
-        /// <exception cref="System.InvalidOperationException">List is empty</exception>
-        /// <exception cref="System.IndexOutOfRangeException"></exception>
+        /// <exception cref="ArgumentException">List is empty</exception>
+        /// <exception cref="IndexOutOfRangeException"></exception>
         public void InsertAt(int index, T newElement)
         {
-            if (this.count == 0)
+            if (this.Count == 0)
             {
-                throw new InvalidOperationException("List is empty");
+                throw new ArgumentException("List is empty");
             }
 
-            if (index < 0 || index >= this.count)
+            if (index < 0 || index >= this.Count)
             {
                 throw new IndexOutOfRangeException(string.Format("Invalid index: {0}.", index));
             }
 
-            if (this.count == this.array.Length)
+            if (this.Count == this.array.Length)
             {
                 this.ResizeList();
             }
@@ -219,9 +234,17 @@ namespace _03.Genereic_List_and_Version
         /// Compares value types by value and reference types by reference.
         /// </summary>
         /// <param name="elementToFind">The element to search for.</param>
-        /// <returns>The zero-based index of the element or -1 if the element isn't found in the list.</returns>
+        /// <returns>
+        /// The zero-based index of the element or -1 if the element isn't found in the list.
+        /// </returns>
+        /// <exception cref="ArgumentException">List is empty</exception>
         public int IndexOf(T elementToFind)
         {
+            if (this.Count == 0)
+            {
+                throw new ArgumentException("List is empty");
+            }
+
             for (int index = 0; index < this.Count; index++)
             {
                 if (object.ReferenceEquals(this.array[index], elementToFind))
@@ -252,9 +275,17 @@ namespace _03.Genereic_List_and_Version
         /// Compares value types by value and reference types by reference.
         /// </summary>
         /// <param name="elementToFind">The element to search for.</param>
-        /// <returns>The zero-based index of the element or -1 if the element isn't found in the list.</returns>
+        /// <returns>
+        /// The zero-based index of the element or -1 if the element isn't found in the list.
+        /// </returns>
+        /// <exception cref="ArgumentException">List is empty</exception>
         public int LastIndexOf(T elementToFind)
         {
+            if (this.Count == 0)
+            {
+                throw new ArgumentException("List is empty");
+            }
+
             for (int index = this.Count - 1; index >= 0; index--)
             {
                 if (object.ReferenceEquals(this.array[index], elementToFind))
@@ -275,9 +306,17 @@ namespace _03.Genereic_List_and_Version
         /// Checks whether the GenericList contains the specified element.
         /// </summary>
         /// <param name="elementToCheck">The element to check.</param>
-        /// <returns>Returns false or true</returns>
+        /// <returns>
+        /// Returns false or true
+        /// </returns>
+        /// <exception cref="ArgumentException">List is empty</exception>
         public bool Contains(T elementToCheck)
         {
+            if (this.Count == 0)
+            {
+                throw new ArgumentException("List is empty");
+            }
+
             bool contains = this.IndexOf(elementToCheck) != -1;
             return contains;
         }
@@ -290,7 +329,7 @@ namespace _03.Genereic_List_and_Version
         /// </returns>
         public override string ToString()
         {
-            var resultElements = this.array.Take(this.count);
+            var resultElements = this.array.Take(this.Count);
 
             return this.Count > 0 ? string.Join(", ", resultElements) : "list is empty";
         }
@@ -301,7 +340,7 @@ namespace _03.Genereic_List_and_Version
         /// <returns>Enumerator</returns>
         public IEnumerator<T> GetEnumerator()
         {
-            return this.array.Take(this.count).GetEnumerator();
+            return this.array.Take(this.Count).GetEnumerator();
         }
 
         /// <summary>
