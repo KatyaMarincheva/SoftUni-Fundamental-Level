@@ -85,13 +85,13 @@
             // Country country = (Country)param;
 
             // Check if we have valid not null Student object
-            if (country == null)
+            if (Object.Equals(country, null)) //if (Object.Equals(a,null) || Object.Equals(b,null))
             {
                 return false;
             }
 
             // Compare the reference type member fields
-            if (this.Name == country.Name)
+            if (Object.Equals(this.Name, country.Name))
             {
                 return true;
             }
@@ -106,7 +106,7 @@
 
         public static bool operator ==(Country a, Country b)
         {
-            if (a == null || b == null)
+            if (Object.Equals(a, null) || Object.Equals(b, null))
             {
                 return false;
             }
@@ -116,7 +116,7 @@
 
         public static bool operator !=(Country a, Country b)
         {
-            if (a == null || b == null)
+            if (Object.Equals(a,null) || Object.Equals(b,null))
             {
                 return false;
             }

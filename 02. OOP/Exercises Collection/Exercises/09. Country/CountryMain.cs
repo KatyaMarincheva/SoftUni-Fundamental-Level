@@ -29,11 +29,12 @@
             Console.WriteLine("bg.CompareTo(bgCopy): {0}", bg.CompareTo(bgCopy));
             Console.WriteLine("bg.CompareTo(usa): {0}", bg.CompareTo(usa));
 
-            //Console.WriteLine(bg.Equals(bg2));
-            //Console.WriteLine(bg == bg2); // True
-            //Console.WriteLine(bg == usa); // False
-            //Console.WriteLine(bg != bg2); // False
-            //Console.WriteLine(bg != usa); // True
+            Console.WriteLine(bg.Equals(bg2));
+            Console.WriteLine(Country.Equals(hr, bg));
+            Console.WriteLine(bg == bg2); // True
+            Console.WriteLine(bg == usa); // False
+            Console.WriteLine(bg != bg2); // False
+            Console.WriteLine(bg != usa); // True
 
             // sorting coutries
             var countries = new List<Country> { bg, usa, bg2, bg3, hr };
