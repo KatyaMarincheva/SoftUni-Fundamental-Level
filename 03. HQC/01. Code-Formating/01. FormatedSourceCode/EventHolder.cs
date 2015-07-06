@@ -5,6 +5,8 @@
 namespace _01.FormatedSourceCode
 {
     using System;
+    using System.Linq;
+    using Wintellect.PowerCollections;
 
     /// <summary>
     /// class EventHolder
