@@ -45,8 +45,6 @@
                     .Select(c => new { c.Name, c.Area, c.Population })));
 
             Console.WriteLine(string.Join(Environment.NewLine, countries));
-
-
         }
     }
 }

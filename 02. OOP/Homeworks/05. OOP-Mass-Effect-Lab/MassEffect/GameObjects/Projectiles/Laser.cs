@@ -1,4 +1,4 @@
-﻿using MassEffect.Interfaces;
+﻿        using MassEffect.Interfaces;
 
 namespace MassEffect.GameObjects.Projectiles
 {
