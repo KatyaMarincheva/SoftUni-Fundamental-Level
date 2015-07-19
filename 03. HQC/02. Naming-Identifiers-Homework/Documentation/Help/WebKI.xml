@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="ConsoleWriter class">
+    <HelpKINode Title="ConsoleWriter Class" Url="html/be49de00-eedc-6cd4-c5ed-99361ab8a7f9.htm" />
+    <HelpKINode Title="about ConsoleWriter class" Url="html/be49de00-eedc-6cd4-c5ed-99361ab8a7f9.htm" />
+    <HelpKINode Title="methods" Url="html/d95d5ac8-adbf-783b-bcdf-addeb9c2355d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConsoleWriter.PrintMatrix method" Url="html/8b25c96b-6bff-b52e-f8c8-860ab84b3fd2.htm" />
+  <HelpKINode Title="Main method" Url="html/4e6a63d7-cc29-493d-a5f9-97cd2cfbd1cc.htm" />
+  <HelpKINode Title="MatrixMultiplicationCalculator class">
+    <HelpKINode Title="MatrixMultiplicationCalculator Class" Url="html/624d4057-940a-a3d1-c221-dd1d6b8af2f6.htm" />
+    <HelpKINode Title="about MatrixMultiplicationCalculator class" Url="html/624d4057-940a-a3d1-c221-dd1d6b8af2f6.htm" />
+    <HelpKINode Title="methods" Url="html/917553ce-ed4d-be99-3b74-3d7b5d2c2e9a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MatrixMultiplicationCalculator.MultiplyMatrices method" Url="html/efce74b6-f35b-28ef-2538-04d9bf67fc4e.htm" />
+  <HelpKINode Title="MatrixMultiplicationMain class">
+    <HelpKINode Title="MatrixMultiplicationMain Class" Url="html/fec99368-839a-e701-c879-f74e70f57049.htm" />
+    <HelpKINode Title="about MatrixMultiplicationMain class" Url="html/fec99368-839a-e701-c879-f74e70f57049.htm" />
+    <HelpKINode Title="constructor" Url="html/ada396de-675c-7547-0ba6-7909153aa043.htm" />
+    <HelpKINode Title="methods" Url="html/a60b72a8-11c1-613f-ede8-b5ee91b6a2c2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MatrixMultiplicationMain.Main method" Url="html/4e6a63d7-cc29-493d-a5f9-97cd2cfbd1cc.htm" />
+  <HelpKINode Title="MatrixMultiplicationMain.MatrixMultiplicationMain constructor" Url="html/ada396de-675c-7547-0ba6-7909153aa043.htm" />
+  <HelpKINode Title="MultiplyMatrices method" Url="html/efce74b6-f35b-28ef-2538-04d9bf67fc4e.htm" />
+  <HelpKINode Title="PrintMatrix method" Url="html/8b25c96b-6bff-b52e-f8c8-860ab84b3fd2.htm" />
+  <HelpKINode Title="_01.Matrix_Multiplication_Calculator namespace" Url="html/564a498d-9cdb-0647-5004-71635aadbadd.htm" />
+  <HelpKINode Title="_01.Matrix_Multiplication_Calculator.ConsoleWriter class" Url="html/be49de00-eedc-6cd4-c5ed-99361ab8a7f9.htm" />
+  <HelpKINode Title="_01.Matrix_Multiplication_Calculator.MatrixMultiplicationCalculator class" Url="html/624d4057-940a-a3d1-c221-dd1d6b8af2f6.htm" />
+  <HelpKINode Title="_01.Matrix_Multiplication_Calculator.MatrixMultiplicationMain class" Url="html/fec99368-839a-e701-c879-f74e70f57049.htm" />
+</HelpKI>

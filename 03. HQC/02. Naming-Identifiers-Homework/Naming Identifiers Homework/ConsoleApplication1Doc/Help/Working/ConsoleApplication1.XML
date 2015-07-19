@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ConsoleApplication1</name>
+    </assembly>
+    <members>
+        <member name="T:ConsoleApplication1.Program">
+            <summary>
+            Program
+            </summary>
+        </member>
+        <member name="M:ConsoleApplication1.Program.Main(System.String[])">
+            <summary>
+            Mains the specified arguments.
+            </summary>
+            <param name="args">The arguments.</param>
+        </member>
+        <member name="M:ConsoleApplication1.Program.mm(System.Double[0:,0:],System.Double[0:,0:])">
+            <summary>
+            Mms the specified _.
+            </summary>
+            <param name="_">The _.</param>
+            <param name="__">The __.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception">Error!</exception>
+        </member>
+    </members>
+</doc>

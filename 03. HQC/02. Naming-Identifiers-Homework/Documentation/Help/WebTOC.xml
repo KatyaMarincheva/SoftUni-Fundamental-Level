@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="d4efdf5e-7365-4686-89f5-9f9f8c8c007d" Title="Naming Identifiers Documentation" Url="html/d75eb659-6335-53f6-af7a-81814a21ab7f.htm">
+    <HelpTOCNode Id="c4b7ab98-67db-4d1b-82e5-2f415691e656" Title="_01.Matrix_Multiplication_Calculator" Url="html/564a498d-9cdb-0647-5004-71635aadbadd.htm">
+      <HelpTOCNode Id="4aa724d0-53ba-459a-b694-e2427446be15" Title="ConsoleWriter Class" Url="html/be49de00-eedc-6cd4-c5ed-99361ab8a7f9.htm">
+        <HelpTOCNode Id="adf39692-a3fa-41bc-a6b8-50d42d74fe20" Title="ConsoleWriter Methods" Url="html/d95d5ac8-adbf-783b-bcdf-addeb9c2355d.htm">
+          <HelpTOCNode Title="PrintMatrix Method " Url="html/8b25c96b-6bff-b52e-f8c8-860ab84b3fd2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b80881b0-be67-4a6f-931b-e99c2c9ee21e" Title="MatrixMultiplicationCalculator Class" Url="html/624d4057-940a-a3d1-c221-dd1d6b8af2f6.htm">
+        <HelpTOCNode Id="6eabf40f-f664-41a9-910d-ea39aa716b3b" Title="MatrixMultiplicationCalculator Methods" Url="html/917553ce-ed4d-be99-3b74-3d7b5d2c2e9a.htm">
+          <HelpTOCNode Title="MultiplyMatrices Method " Url="html/efce74b6-f35b-28ef-2538-04d9bf67fc4e.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e4dbf8e0-c608-4bab-8cd1-cea2c70699ec" Title="MatrixMultiplicationMain Class" Url="html/fec99368-839a-e701-c879-f74e70f57049.htm">
+        <HelpTOCNode Title="MatrixMultiplicationMain Constructor " Url="html/ada396de-675c-7547-0ba6-7909153aa043.htm" />
+        <HelpTOCNode Id="185e8ee1-2d1b-4f6c-8295-a65c712a004c" Title="MatrixMultiplicationMain Methods" Url="html/a60b72a8-11c1-613f-ede8-b5ee91b6a2c2.htm">
+          <HelpTOCNode Title="Main Method " Url="html/4e6a63d7-cc29-493d-a5f9-97cd2cfbd1cc.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

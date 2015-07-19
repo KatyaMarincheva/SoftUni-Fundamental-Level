@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Add method" Url="html/ba5a254b-a622-c9f3-e938-9f3ead00b6af.htm" />
+  <HelpKINode Title="AddEventToDatabases method" Url="html/a48a237f-7ce8-86de-51ca-3721e16b0006.htm" />
+  <HelpKINode Title="Capacity property" Url="html/bab333da-048f-d446-60b0-1eeb0c2f9b7a.htm" />
+  <HelpKINode Title="Clear method" Url="html/7937f329-176d-63d9-62fb-35f1f4834339.htm" />
+  <HelpKINode Title="CompareTo method" Url="html/0989afb4-441c-d144-aaf8-496841abb2a3.htm" />
+  <HelpKINode Title="ConsoleRenderer class">
+    <HelpKINode Title="ConsoleRenderer Class" Url="html/608e7ea8-7a3d-7712-2979-68617c3c5dfa.htm" />
+    <HelpKINode Title="about ConsoleRenderer class" Url="html/608e7ea8-7a3d-7712-2979-68617c3c5dfa.htm" />
+    <HelpKINode Title="methods" Url="html/7f85e7e0-0515-4ee5-2c74-c5faf83da919.htm" />
+    <HelpKINode Title="properties" Url="html/b387f245-49cc-8ee9-447f-377de93df663.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConsoleRenderer.GetInstance property" Url="html/5f9b3588-1ce3-67cc-96b1-637a937d1dd3.htm" />
+  <HelpKINode Title="ConsoleRenderer.PrintMessages method" Url="html/b5cdf021-094c-4b2b-0556-5c8a8dad0c17.htm" />
+  <HelpKINode Title="Contains method" Url="html/dd6e5fc6-90ed-d16b-45c5-23f2173dc000.htm" />
+  <HelpKINode Title="Count property" Url="html/372ca855-08d2-84a6-f8ef-dcfaedc9f195.htm" />
+  <HelpKINode Title="Date property" Url="html/7a5eafdb-0b0d-a4a9-ab58-2a6859eccc17.htm" />
+  <HelpKINode Title="DeleteEventFromDatabases method" Url="html/a6a59695-b0f4-6e23-43d9-b33bc8d45386.htm" />
+  <HelpKINode Title="Event class">
+    <HelpKINode Title="Event Class" Url="html/42ba7eb8-df1a-5bec-cef8-e4e35c93c54d.htm" />
+    <HelpKINode Title="about Event class" Url="html/42ba7eb8-df1a-5bec-cef8-e4e35c93c54d.htm" />
+    <HelpKINode Title="constructor" Url="html/44ed340c-9c9e-2b7d-33a8-adc935e16f43.htm" />
+    <HelpKINode Title="methods" Url="html/7adf4d53-5814-8303-728d-29cf4eff87b6.htm" />
+    <HelpKINode Title="properties" Url="html/f2edced7-4058-fced-2079-8ed81f633e6a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Event.CompareTo method" Url="html/0989afb4-441c-d144-aaf8-496841abb2a3.htm" />
+  <HelpKINode Title="Event.Date property" Url="html/7a5eafdb-0b0d-a4a9-ab58-2a6859eccc17.htm" />
+  <HelpKINode Title="Event.Event constructor" Url="html/44ed340c-9c9e-2b7d-33a8-adc935e16f43.htm" />
+  <HelpKINode Title="Event.Location property" Url="html/3c8c83fd-1bea-c58f-8dec-088dcc8e288b.htm" />
+  <HelpKINode Title="Event.Title property" Url="html/4e92feb5-f243-aa6e-f2bb-53f4ec9fdf31.htm" />
+  <HelpKINode Title="Event.ToString method" Url="html/7b7e3cc4-1884-4b70-35a6-06b32efbfe6e.htm" />
+  <HelpKINode Title="EventAdded method" Url="html/1b82a17b-ad20-b9ec-7e16-eb5e72210369.htm" />
+  <HelpKINode Title="EventDeleted method" Url="html/f42275db-31f4-e063-a2d7-b476f854c555.htm" />
+  <HelpKINode Title="EventEngine class">
+    <HelpKINode Title="EventEngine Class" Url="html/da6bf99d-da26-a8fc-41e8-93ab106cc1af.htm" />
+    <HelpKINode Title="about EventEngine class" Url="html/da6bf99d-da26-a8fc-41e8-93ab106cc1af.htm" />
+    <HelpKINode Title="methods" Url="html/ac7439c8-100e-6016-72bf-e53c068aa21c.htm" />
+    <HelpKINode Title="properties" Url="html/1e38de5c-198f-0d54-80d6-32bc06784c0b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventEngine.ExecuteNextCommand method" Url="html/5b53588d-c61d-b53f-b6e8-358bb0678962.htm" />
+  <HelpKINode Title="EventEngine.GetInstance property" Url="html/92e8fe0c-c287-a7ad-64b3-b9a5c8a505da.htm" />
+  <HelpKINode Title="EventHolder class">
+    <HelpKINode Title="EventHolder Class" Url="html/42a0cd82-6265-4283-87ab-dac193c17e72.htm" />
+    <HelpKINode Title="about EventHolder class" Url="html/42a0cd82-6265-4283-87ab-dac193c17e72.htm" />
+    <HelpKINode Title="methods" Url="html/878e4aac-0076-c4e7-828b-283d024d3edc.htm" />
+    <HelpKINode Title="properties" Url="html/ca3c4418-5cee-576e-5669-f67afe4816d6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventHolder.AddEventToDatabases method" Url="html/a48a237f-7ce8-86de-51ca-3721e16b0006.htm" />
+  <HelpKINode Title="EventHolder.DeleteEventFromDatabases method" Url="html/a6a59695-b0f4-6e23-43d9-b33bc8d45386.htm" />
+  <HelpKINode Title="EventHolder.GetInstance property" Url="html/d24c9fe2-92dc-5cee-dd64-7657e2cacb41.htm" />
+  <HelpKINode Title="EventHolder.ListEvents method" Url="html/9fdce084-b1bf-ab7e-1f64-3e3638746093.htm" />
+  <HelpKINode Title="ExecuteNextCommand method" Url="html/5b53588d-c61d-b53f-b6e8-358bb0678962.htm" />
+  <HelpKINode Title="GenericList(Of T) class">
+    <HelpKINode Title="GenericList(T) Class" Url="html/4d4cdbfa-f0ae-6885-3fd6-48adb379922d.htm" />
+    <HelpKINode Title="about GenericList(Of T) class" Url="html/4d4cdbfa-f0ae-6885-3fd6-48adb379922d.htm" />
+    <HelpKINode Title="constructor" Url="html/576e95ac-6609-96bf-716d-85fde8bc39d8.htm" />
+    <HelpKINode Title="methods" Url="html/a57c3c90-31f6-9b91-3e5a-e6354221b964.htm" />
+    <HelpKINode Title="properties" Url="html/5a4dee43-f6f8-9192-40b1-e1acb7c359d8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GenericList(Of T).Add method" Url="html/ba5a254b-a622-c9f3-e938-9f3ead00b6af.htm" />
+  <HelpKINode Title="GenericList(Of T).Capacity property" Url="html/bab333da-048f-d446-60b0-1eeb0c2f9b7a.htm" />
+  <HelpKINode Title="GenericList(Of T).Clear method" Url="html/7937f329-176d-63d9-62fb-35f1f4834339.htm" />
+  <HelpKINode Title="GenericList(Of T).Contains method" Url="html/dd6e5fc6-90ed-d16b-45c5-23f2173dc000.htm" />
+  <HelpKINode Title="GenericList(Of T).Count property" Url="html/372ca855-08d2-84a6-f8ef-dcfaedc9f195.htm" />
+  <HelpKINode Title="GenericList(Of T).GenericList constructor" Url="html/576e95ac-6609-96bf-716d-85fde8bc39d8.htm" />
+  <HelpKINode Title="GenericList(Of T).GetEnumerator method" Url="html/e756d923-6691-5105-3b66-c490bd40ff54.htm" />
+  <HelpKINode Title="GenericList(Of T).IndexOf method" Url="html/1d6e00b4-e66f-5194-5c5e-27d7b260cec3.htm" />
+  <HelpKINode Title="GenericList(Of T).InsertAt method" Url="html/bc104b56-e914-8f4a-1841-42c7c07f46b8.htm" />
+  <HelpKINode Title="GenericList(Of T).Item property" Url="html/2815f130-9e53-0a17-510e-d602761e34a2.htm" />
+  <HelpKINode Title="GenericList(Of T).LastIndexOf method" Url="html/2faaa9b7-6e37-4f0e-890d-78b716eb8fd1.htm" />
+  <HelpKINode Title="GenericList(Of T).Max method" Url="html/39f5a304-839f-37f5-f9e2-a9617f8e5c05.htm" />
+  <HelpKINode Title="GenericList(Of T).Min method" Url="html/72e28cf2-a4cc-5fee-9035-791a0f4de7b1.htm" />
+  <HelpKINode Title="GenericList(Of T).Remove method" Url="html/51b954c2-1196-eee3-5b76-0c7835df30cb.htm" />
+  <HelpKINode Title="GenericList(Of T).RemoveAt method" Url="html/a16a4945-a12b-9d06-fe99-c08f20bf849d.htm" />
+  <HelpKINode Title="GenericList(Of T).ToString method" Url="html/7ba5a20f-5aec-293d-11ec-cf0b0b8f3c55.htm" />
+  <HelpKINode Title="GenericList(Of T).Version method" Url="html/0e04a2e4-729f-959b-9cf6-d18591403088.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt; class">
+    <HelpKINode Title="GenericList(T) Class" Url="html/4d4cdbfa-f0ae-6885-3fd6-48adb379922d.htm" />
+    <HelpKINode Title="about GenericList&lt;T&gt; class" Url="html/4d4cdbfa-f0ae-6885-3fd6-48adb379922d.htm" />
+    <HelpKINode Title="constructor" Url="html/576e95ac-6609-96bf-716d-85fde8bc39d8.htm" />
+    <HelpKINode Title="methods" Url="html/a57c3c90-31f6-9b91-3e5a-e6354221b964.htm" />
+    <HelpKINode Title="properties" Url="html/5a4dee43-f6f8-9192-40b1-e1acb7c359d8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GenericList&lt;T&gt;.Add method" Url="html/ba5a254b-a622-c9f3-e938-9f3ead00b6af.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Capacity property" Url="html/bab333da-048f-d446-60b0-1eeb0c2f9b7a.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Clear method" Url="html/7937f329-176d-63d9-62fb-35f1f4834339.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Contains method" Url="html/dd6e5fc6-90ed-d16b-45c5-23f2173dc000.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Count property" Url="html/372ca855-08d2-84a6-f8ef-dcfaedc9f195.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.GenericList constructor" Url="html/576e95ac-6609-96bf-716d-85fde8bc39d8.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.GetEnumerator method" Url="html/e756d923-6691-5105-3b66-c490bd40ff54.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.IndexOf method" Url="html/1d6e00b4-e66f-5194-5c5e-27d7b260cec3.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.InsertAt method" Url="html/bc104b56-e914-8f4a-1841-42c7c07f46b8.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Item property" Url="html/2815f130-9e53-0a17-510e-d602761e34a2.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.LastIndexOf method" Url="html/2faaa9b7-6e37-4f0e-890d-78b716eb8fd1.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Max method" Url="html/39f5a304-839f-37f5-f9e2-a9617f8e5c05.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Min method" Url="html/72e28cf2-a4cc-5fee-9035-791a0f4de7b1.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Remove method" Url="html/51b954c2-1196-eee3-5b76-0c7835df30cb.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.RemoveAt method" Url="html/a16a4945-a12b-9d06-fe99-c08f20bf849d.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.ToString method" Url="html/7ba5a20f-5aec-293d-11ec-cf0b0b8f3c55.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Version method" Url="html/0e04a2e4-729f-959b-9cf6-d18591403088.htm" />
+  <HelpKINode Title="GenericListFunctionalityTest class">
+    <HelpKINode Title="GenericListFunctionalityTest Class" Url="html/6c1da8ea-7f63-00e6-166d-c524e5bb737c.htm" />
+    <HelpKINode Title="about GenericListFunctionalityTest class" Url="html/6c1da8ea-7f63-00e6-166d-c524e5bb737c.htm" />
+    <HelpKINode Title="methods" Url="html/8c3c8756-1e12-bb4a-7033-843d35921cb5.htm" />
+    <HelpKINode Title="properties" Url="html/3c115f02-8e12-d97c-c0f8-e4b588c8be16.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GenericListFunctionalityTest.GetInstance property" Url="html/7a0e3f47-793f-4ce2-c169-8fc2463911fe.htm" />
+  <HelpKINode Title="GenericListFunctionalityTest.TestGenericListMethods method" Url="html/f92d2596-6709-38e1-aed4-d062bc981f82.htm" />
+  <HelpKINode Title="GetDate method" Url="html/69773c2c-3475-d876-bbbd-a962d67fba55.htm" />
+  <HelpKINode Title="GetEnumerator method" Url="html/e756d923-6691-5105-3b66-c490bd40ff54.htm" />
+  <HelpKINode Title="GetEventParameters method" Url="html/d8a7d0bf-bd44-ac5b-6846-35da7aeaf421.htm" />
+  <HelpKINode Title="GetInstance property">
+    <HelpKINode Title="ConsoleRenderer.GetInstance Property " Url="html/5f9b3588-1ce3-67cc-96b1-637a937d1dd3.htm" />
+    <HelpKINode Title="EventEngine.GetInstance Property " Url="html/92e8fe0c-c287-a7ad-64b3-b9a5c8a505da.htm" />
+    <HelpKINode Title="EventHolder.GetInstance Property " Url="html/d24c9fe2-92dc-5cee-dd64-7657e2cacb41.htm" />
+    <HelpKINode Title="GenericListFunctionalityTest.GetInstance Property " Url="html/7a0e3f47-793f-4ce2-c169-8fc2463911fe.htm" />
+    <HelpKINode Title="InputHandler.GetInstance Property " Url="html/19c66ebf-b2ed-f892-4257-c551092293d5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IndexOf method" Url="html/1d6e00b4-e66f-5194-5c5e-27d7b260cec3.htm" />
+  <HelpKINode Title="InputHandler class">
+    <HelpKINode Title="InputHandler Class" Url="html/7d5c8e85-a0af-e03c-0626-d4ab1f18085b.htm" />
+    <HelpKINode Title="about InputHandler class" Url="html/7d5c8e85-a0af-e03c-0626-d4ab1f18085b.htm" />
+    <HelpKINode Title="methods" Url="html/f6445de2-1dd4-f830-d7e3-7763cb24b618.htm" />
+    <HelpKINode Title="properties" Url="html/0797ff56-bd55-ecef-d469-30ee23da96b0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InputHandler.GetDate method" Url="html/69773c2c-3475-d876-bbbd-a962d67fba55.htm" />
+  <HelpKINode Title="InputHandler.GetEventParameters method" Url="html/d8a7d0bf-bd44-ac5b-6846-35da7aeaf421.htm" />
+  <HelpKINode Title="InputHandler.GetInstance property" Url="html/19c66ebf-b2ed-f892-4257-c551092293d5.htm" />
+  <HelpKINode Title="InsertAt method" Url="html/bc104b56-e914-8f4a-1841-42c7c07f46b8.htm" />
+  <HelpKINode Title="Item property" Url="html/2815f130-9e53-0a17-510e-d602761e34a2.htm" />
+  <HelpKINode Title="LastIndexOf method" Url="html/2faaa9b7-6e37-4f0e-890d-78b716eb8fd1.htm" />
+  <HelpKINode Title="ListEvents method" Url="html/9fdce084-b1bf-ab7e-1f64-3e3638746093.htm" />
+  <HelpKINode Title="Location property" Url="html/3c8c83fd-1bea-c58f-8dec-088dcc8e288b.htm" />
+  <HelpKINode Title="MainReformatted method" Url="html/6b616673-98e5-f65b-e808-ae29ad123a59.htm" />
+  <HelpKINode Title="MajorVersion property" Url="html/14563012-9edb-734a-c554-494a30299e69.htm" />
+  <HelpKINode Title="Max method" Url="html/39f5a304-839f-37f5-f9e2-a9617f8e5c05.htm" />
+  <HelpKINode Title="Messages class">
+    <HelpKINode Title="Messages Class" Url="html/ac1359c3-72f4-9bf7-0001-c42e3d232c07.htm" />
+    <HelpKINode Title="about Messages class" Url="html/ac1359c3-72f4-9bf7-0001-c42e3d232c07.htm" />
+    <HelpKINode Title="fields" Url="html/341e8672-62c7-9fff-4437-6919fac9585f.htm" />
+    <HelpKINode Title="methods" Url="html/d5fe23fd-7391-1706-d95b-16b251babe8d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Messages.EventAdded method" Url="html/1b82a17b-ad20-b9ec-7e16-eb5e72210369.htm" />
+  <HelpKINode Title="Messages.EventDeleted method" Url="html/f42275db-31f4-e063-a2d7-b476f854c555.htm" />
+  <HelpKINode Title="Messages.NoEventsFound method" Url="html/104c89ac-21da-0c44-4e9c-0f0ff1fdf6c7.htm" />
+  <HelpKINode Title="Messages.Output field" Url="html/75ca5d4d-375b-aae2-b4bd-85358d8d296d.htm" />
+  <HelpKINode Title="Messages.PrintEvent method" Url="html/97f0ca51-c756-49a9-ebf6-8cbdfc898cf3.htm" />
+  <HelpKINode Title="Min method" Url="html/72e28cf2-a4cc-5fee-9035-791a0f4de7b1.htm" />
+  <HelpKINode Title="MinorVersion property" Url="html/0c43d320-fa85-7ac8-b01e-37aadf81bef2.htm" />
+  <HelpKINode Title="NoEventsFound method" Url="html/104c89ac-21da-0c44-4e9c-0f0ff1fdf6c7.htm" />
+  <HelpKINode Title="Output field" Url="html/75ca5d4d-375b-aae2-b4bd-85358d8d296d.htm" />
+  <HelpKINode Title="PrintEvent method" Url="html/97f0ca51-c756-49a9-ebf6-8cbdfc898cf3.htm" />
+  <HelpKINode Title="PrintMessages method" Url="html/b5cdf021-094c-4b2b-0556-5c8a8dad0c17.htm" />
+  <HelpKINode Title="ProgramReformatted class">
+    <HelpKINode Title="ProgramReformatted Class" Url="html/4ae11c10-5911-0ae0-9d29-0ba333d37f09.htm" />
+    <HelpKINode Title="about ProgramReformatted class" Url="html/4ae11c10-5911-0ae0-9d29-0ba333d37f09.htm" />
+    <HelpKINode Title="constructor" Url="html/95b21826-7dd6-bdcd-cc7e-43f345465319.htm" />
+    <HelpKINode Title="methods" Url="html/ce932f01-db1a-0698-e93f-dc0b62037f6c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProgramReformatted.MainReformatted method" Url="html/6b616673-98e5-f65b-e808-ae29ad123a59.htm" />
+  <HelpKINode Title="ProgramReformatted.ProgramReformatted constructor" Url="html/95b21826-7dd6-bdcd-cc7e-43f345465319.htm" />
+  <HelpKINode Title="Remove method" Url="html/51b954c2-1196-eee3-5b76-0c7835df30cb.htm" />
+  <HelpKINode Title="RemoveAt method" Url="html/a16a4945-a12b-9d06-fe99-c08f20bf849d.htm" />
+  <HelpKINode Title="TestGenericListMethods method" Url="html/f92d2596-6709-38e1-aed4-d062bc981f82.htm" />
+  <HelpKINode Title="Title property" Url="html/4e92feb5-f243-aa6e-f2bb-53f4ec9fdf31.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="Event.ToString Method " Url="html/7b7e3cc4-1884-4b70-35a6-06b32efbfe6e.htm" />
+    <HelpKINode Title="GenericList(T).ToString Method " Url="html/7ba5a20f-5aec-293d-11ec-cf0b0b8f3c55.htm" />
+    <HelpKINode Title="VersionAttribute.ToString Method " Url="html/83ec493a-7337-e5c1-f225-2ed6fb0e03df.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Version method" Url="html/0e04a2e4-729f-959b-9cf6-d18591403088.htm" />
+  <HelpKINode Title="VersionAttribute class">
+    <HelpKINode Title="VersionAttribute Class" Url="html/1fda4aa7-a448-160f-f1d0-b2bbb968cb59.htm" />
+    <HelpKINode Title="about VersionAttribute class" Url="html/1fda4aa7-a448-160f-f1d0-b2bbb968cb59.htm" />
+    <HelpKINode Title="constructor" Url="html/3a6043d5-9d9a-30e6-8eb2-0edede952bd3.htm" />
+    <HelpKINode Title="methods" Url="html/d5c95ffe-def5-f49a-dc61-76b5c7766095.htm" />
+    <HelpKINode Title="properties" Url="html/5d030528-f4fb-5cfe-c388-08fa2790ffdf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VersionAttribute.MajorVersion property" Url="html/14563012-9edb-734a-c554-494a30299e69.htm" />
+  <HelpKINode Title="VersionAttribute.MinorVersion property" Url="html/0c43d320-fa85-7ac8-b01e-37aadf81bef2.htm" />
+  <HelpKINode Title="VersionAttribute.ToString method" Url="html/83ec493a-7337-e5c1-f225-2ed6fb0e03df.htm" />
+  <HelpKINode Title="VersionAttribute.VersionAttribute constructor" Url="html/3a6043d5-9d9a-30e6-8eb2-0edede952bd3.htm" />
+  <HelpKINode Title="_01.FormatedSourceCode namespace" Url="html/ec8c2c08-5f94-d0a1-b244-011d0f20c9e7.htm" />
+  <HelpKINode Title="_01.FormatedSourceCode.EventEngine class" Url="html/da6bf99d-da26-a8fc-41e8-93ab106cc1af.htm" />
+  <HelpKINode Title="_01.FormatedSourceCode.Factories namespace" Url="html/439a0534-ac81-36b6-aa54-1dd6e5423401.htm" />
+  <HelpKINode Title="_01.FormatedSourceCode.Factories.EventHolder class" Url="html/42a0cd82-6265-4283-87ab-dac193c17e72.htm" />
+  <HelpKINode Title="_01.FormatedSourceCode.Factories.Messages class" Url="html/ac1359c3-72f4-9bf7-0001-c42e3d232c07.htm" />
+  <HelpKINode Title="_01.FormatedSourceCode.IO namespace" Url="html/3c98fcc9-81fc-d195-0468-8774a13be8af.htm" />
+  <HelpKINode Title="_01.FormatedSourceCode.IO.ConsoleRenderer class" Url="html/608e7ea8-7a3d-7712-2979-68617c3c5dfa.htm" />
+  <HelpKINode Title="_01.FormatedSourceCode.IO.InputHandler class" Url="html/7d5c8e85-a0af-e03c-0626-d4ab1f18085b.htm" />
+  <HelpKINode Title="_01.FormatedSourceCode.Models namespace" Url="html/6203fb5a-7450-e36c-ecee-e01601cf4e8e.htm" />
+  <HelpKINode Title="_01.FormatedSourceCode.Models.Event class" Url="html/42ba7eb8-df1a-5bec-cef8-e4e35c93c54d.htm" />
+  <HelpKINode Title="_03.Genereic_List_and_Version namespace" Url="html/2662de43-8db8-dd51-3388-00763364448f.htm" />
+  <HelpKINode Title="_03.Genereic_List_and_Version.GenericList(Of T) class" Url="html/4d4cdbfa-f0ae-6885-3fd6-48adb379922d.htm" />
+  <HelpKINode Title="_03.Genereic_List_and_Version.GenericList&lt;T&gt; class" Url="html/4d4cdbfa-f0ae-6885-3fd6-48adb379922d.htm" />
+  <HelpKINode Title="_03.Genereic_List_and_Version.Program_reformatted_Files namespace" Url="html/9a48c530-3fc8-485d-6cbb-44132a2b9ec8.htm" />
+  <HelpKINode Title="_03.Genereic_List_and_Version.Program_reformatted_Files.GenericListFunctionalityTest class" Url="html/6c1da8ea-7f63-00e6-166d-c524e5bb737c.htm" />
+  <HelpKINode Title="_03.Genereic_List_and_Version.Program_reformatted_Files.ProgramReformatted class" Url="html/4ae11c10-5911-0ae0-9d29-0ba333d37f09.htm" />
+  <HelpKINode Title="_03.Genereic_List_and_Version.VersionAttribute class" Url="html/1fda4aa7-a448-160f-f1d0-b2bbb968cb59.htm" />
+</HelpKI>

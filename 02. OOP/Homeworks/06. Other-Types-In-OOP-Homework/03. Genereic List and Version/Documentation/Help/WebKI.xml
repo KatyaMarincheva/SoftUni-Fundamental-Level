@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Add method" Url="html/ba5a254b-a622-c9f3-e938-9f3ead00b6af.htm" />
+  <HelpKINode Title="Capacity property" Url="html/bab333da-048f-d446-60b0-1eeb0c2f9b7a.htm" />
+  <HelpKINode Title="Clear method" Url="html/7937f329-176d-63d9-62fb-35f1f4834339.htm" />
+  <HelpKINode Title="Contains method" Url="html/dd6e5fc6-90ed-d16b-45c5-23f2173dc000.htm" />
+  <HelpKINode Title="Count property" Url="html/372ca855-08d2-84a6-f8ef-dcfaedc9f195.htm" />
+  <HelpKINode Title="GenericList(Of T) class">
+    <HelpKINode Title="GenericList(T) Class" Url="html/4d4cdbfa-f0ae-6885-3fd6-48adb379922d.htm" />
+    <HelpKINode Title="about GenericList(Of T) class" Url="html/4d4cdbfa-f0ae-6885-3fd6-48adb379922d.htm" />
+    <HelpKINode Title="constructor" Url="html/576e95ac-6609-96bf-716d-85fde8bc39d8.htm" />
+    <HelpKINode Title="methods" Url="html/a57c3c90-31f6-9b91-3e5a-e6354221b964.htm" />
+    <HelpKINode Title="properties" Url="html/5a4dee43-f6f8-9192-40b1-e1acb7c359d8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GenericList(Of T).Add method" Url="html/ba5a254b-a622-c9f3-e938-9f3ead00b6af.htm" />
+  <HelpKINode Title="GenericList(Of T).Capacity property" Url="html/bab333da-048f-d446-60b0-1eeb0c2f9b7a.htm" />
+  <HelpKINode Title="GenericList(Of T).Clear method" Url="html/7937f329-176d-63d9-62fb-35f1f4834339.htm" />
+  <HelpKINode Title="GenericList(Of T).Contains method" Url="html/dd6e5fc6-90ed-d16b-45c5-23f2173dc000.htm" />
+  <HelpKINode Title="GenericList(Of T).Count property" Url="html/372ca855-08d2-84a6-f8ef-dcfaedc9f195.htm" />
+  <HelpKINode Title="GenericList(Of T).GenericList constructor" Url="html/576e95ac-6609-96bf-716d-85fde8bc39d8.htm" />
+  <HelpKINode Title="GenericList(Of T).GetEnumerator method" Url="html/e756d923-6691-5105-3b66-c490bd40ff54.htm" />
+  <HelpKINode Title="GenericList(Of T).IndexOf method" Url="html/1d6e00b4-e66f-5194-5c5e-27d7b260cec3.htm" />
+  <HelpKINode Title="GenericList(Of T).InsertAt method" Url="html/bc104b56-e914-8f4a-1841-42c7c07f46b8.htm" />
+  <HelpKINode Title="GenericList(Of T).Item property" Url="html/2815f130-9e53-0a17-510e-d602761e34a2.htm" />
+  <HelpKINode Title="GenericList(Of T).LastIndexOf method" Url="html/2faaa9b7-6e37-4f0e-890d-78b716eb8fd1.htm" />
+  <HelpKINode Title="GenericList(Of T).Max method" Url="html/39f5a304-839f-37f5-f9e2-a9617f8e5c05.htm" />
+  <HelpKINode Title="GenericList(Of T).Min method" Url="html/72e28cf2-a4cc-5fee-9035-791a0f4de7b1.htm" />
+  <HelpKINode Title="GenericList(Of T).Remove method" Url="html/51b954c2-1196-eee3-5b76-0c7835df30cb.htm" />
+  <HelpKINode Title="GenericList(Of T).RemoveAt method" Url="html/a16a4945-a12b-9d06-fe99-c08f20bf849d.htm" />
+  <HelpKINode Title="GenericList(Of T).ToString method" Url="html/7ba5a20f-5aec-293d-11ec-cf0b0b8f3c55.htm" />
+  <HelpKINode Title="GenericList(Of T).Version method" Url="html/0e04a2e4-729f-959b-9cf6-d18591403088.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt; class">
+    <HelpKINode Title="GenericList(T) Class" Url="html/4d4cdbfa-f0ae-6885-3fd6-48adb379922d.htm" />
+    <HelpKINode Title="about GenericList&lt;T&gt; class" Url="html/4d4cdbfa-f0ae-6885-3fd6-48adb379922d.htm" />
+    <HelpKINode Title="constructor" Url="html/576e95ac-6609-96bf-716d-85fde8bc39d8.htm" />
+    <HelpKINode Title="methods" Url="html/a57c3c90-31f6-9b91-3e5a-e6354221b964.htm" />
+    <HelpKINode Title="properties" Url="html/5a4dee43-f6f8-9192-40b1-e1acb7c359d8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GenericList&lt;T&gt;.Add method" Url="html/ba5a254b-a622-c9f3-e938-9f3ead00b6af.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Capacity property" Url="html/bab333da-048f-d446-60b0-1eeb0c2f9b7a.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Clear method" Url="html/7937f329-176d-63d9-62fb-35f1f4834339.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Contains method" Url="html/dd6e5fc6-90ed-d16b-45c5-23f2173dc000.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Count property" Url="html/372ca855-08d2-84a6-f8ef-dcfaedc9f195.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.GenericList constructor" Url="html/576e95ac-6609-96bf-716d-85fde8bc39d8.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.GetEnumerator method" Url="html/e756d923-6691-5105-3b66-c490bd40ff54.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.IndexOf method" Url="html/1d6e00b4-e66f-5194-5c5e-27d7b260cec3.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.InsertAt method" Url="html/bc104b56-e914-8f4a-1841-42c7c07f46b8.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Item property" Url="html/2815f130-9e53-0a17-510e-d602761e34a2.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.LastIndexOf method" Url="html/2faaa9b7-6e37-4f0e-890d-78b716eb8fd1.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Max method" Url="html/39f5a304-839f-37f5-f9e2-a9617f8e5c05.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Min method" Url="html/72e28cf2-a4cc-5fee-9035-791a0f4de7b1.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Remove method" Url="html/51b954c2-1196-eee3-5b76-0c7835df30cb.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.RemoveAt method" Url="html/a16a4945-a12b-9d06-fe99-c08f20bf849d.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.ToString method" Url="html/7ba5a20f-5aec-293d-11ec-cf0b0b8f3c55.htm" />
+  <HelpKINode Title="GenericList&lt;T&gt;.Version method" Url="html/0e04a2e4-729f-959b-9cf6-d18591403088.htm" />
+  <HelpKINode Title="GetEnumerator method" Url="html/e756d923-6691-5105-3b66-c490bd40ff54.htm" />
+  <HelpKINode Title="IndexOf method" Url="html/1d6e00b4-e66f-5194-5c5e-27d7b260cec3.htm" />
+  <HelpKINode Title="InsertAt method" Url="html/bc104b56-e914-8f4a-1841-42c7c07f46b8.htm" />
+  <HelpKINode Title="Item property" Url="html/2815f130-9e53-0a17-510e-d602761e34a2.htm" />
+  <HelpKINode Title="LastIndexOf method" Url="html/2faaa9b7-6e37-4f0e-890d-78b716eb8fd1.htm" />
+  <HelpKINode Title="MajorVersion property" Url="html/14563012-9edb-734a-c554-494a30299e69.htm" />
+  <HelpKINode Title="Max method" Url="html/39f5a304-839f-37f5-f9e2-a9617f8e5c05.htm" />
+  <HelpKINode Title="Min method" Url="html/72e28cf2-a4cc-5fee-9035-791a0f4de7b1.htm" />
+  <HelpKINode Title="MinorVersion property" Url="html/0c43d320-fa85-7ac8-b01e-37aadf81bef2.htm" />
+  <HelpKINode Title="Remove method" Url="html/51b954c2-1196-eee3-5b76-0c7835df30cb.htm" />
+  <HelpKINode Title="RemoveAt method" Url="html/a16a4945-a12b-9d06-fe99-c08f20bf849d.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="GenericList(T).ToString Method " Url="html/7ba5a20f-5aec-293d-11ec-cf0b0b8f3c55.htm" />
+    <HelpKINode Title="VersionAttribute.ToString Method " Url="html/83ec493a-7337-e5c1-f225-2ed6fb0e03df.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Version method" Url="html/0e04a2e4-729f-959b-9cf6-d18591403088.htm" />
+  <HelpKINode Title="VersionAttribute class">
+    <HelpKINode Title="VersionAttribute Class" Url="html/1fda4aa7-a448-160f-f1d0-b2bbb968cb59.htm" />
+    <HelpKINode Title="about VersionAttribute class" Url="html/1fda4aa7-a448-160f-f1d0-b2bbb968cb59.htm" />
+    <HelpKINode Title="constructor" Url="html/3a6043d5-9d9a-30e6-8eb2-0edede952bd3.htm" />
+    <HelpKINode Title="methods" Url="html/d5c95ffe-def5-f49a-dc61-76b5c7766095.htm" />
+    <HelpKINode Title="properties" Url="html/5d030528-f4fb-5cfe-c388-08fa2790ffdf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VersionAttribute.MajorVersion property" Url="html/14563012-9edb-734a-c554-494a30299e69.htm" />
+  <HelpKINode Title="VersionAttribute.MinorVersion property" Url="html/0c43d320-fa85-7ac8-b01e-37aadf81bef2.htm" />
+  <HelpKINode Title="VersionAttribute.ToString method" Url="html/83ec493a-7337-e5c1-f225-2ed6fb0e03df.htm" />
+  <HelpKINode Title="VersionAttribute.VersionAttribute constructor" Url="html/3a6043d5-9d9a-30e6-8eb2-0edede952bd3.htm" />
+  <HelpKINode Title="_03.Genereic_List_and_Version namespace" Url="html/2662de43-8db8-dd51-3388-00763364448f.htm" />
+  <HelpKINode Title="_03.Genereic_List_and_Version.GenericList(Of T) class" Url="html/4d4cdbfa-f0ae-6885-3fd6-48adb379922d.htm" />
+  <HelpKINode Title="_03.Genereic_List_and_Version.GenericList&lt;T&gt; class" Url="html/4d4cdbfa-f0ae-6885-3fd6-48adb379922d.htm" />
+  <HelpKINode Title="_03.Genereic_List_and_Version.VersionAttribute class" Url="html/1fda4aa7-a448-160f-f1d0-b2bbb968cb59.htm" />
+</HelpKI>
