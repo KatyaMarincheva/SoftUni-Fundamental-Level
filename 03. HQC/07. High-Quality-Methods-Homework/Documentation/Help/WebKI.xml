@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AdditionalInfo property" Url="html/f69c2515-0ef6-2d30-cd01-83362d4b4a59.htm" />
+  <HelpKINode Title="CalculateDistance method" Url="html/cd51cdbc-1b9d-4a61-8174-747ebbfea038.htm" />
+  <HelpKINode Title="CalculateDistance_ShouldPassTest method" Url="html/d0f9a748-cd44-11a7-9c92-8644cce64206.htm" />
+  <HelpKINode Title="CalculateTriangleArea method" Url="html/ce26408e-6be3-2068-efd1-a682a46bbe94.htm" />
+  <HelpKINode Title="CalculateTriangleArea_WhenAllArgumentsAreValid_ShouldPassTest method" Url="html/61232d5d-1672-ecba-46ec-fe207b07a0f9.htm" />
+  <HelpKINode Title="CalculateTriangleArea_WhenOneOrMoreArgumentsAreNegative_ShouldThrowArgumentException method" Url="html/8d13a8c6-73a6-055c-a111-351a49365bcd.htm" />
+  <HelpKINode Title="Calculations class">
+    <HelpKINode Title="Calculations Class" Url="html/c1f4add8-3f32-d2cb-287c-15426bbdf8b4.htm" />
+    <HelpKINode Title="about Calculations class" Url="html/c1f4add8-3f32-d2cb-287c-15426bbdf8b4.htm" />
+    <HelpKINode Title="methods" Url="html/17642843-31bf-069a-9a4f-f7ad6fcf9ee1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Calculations.CalculateDistance method" Url="html/cd51cdbc-1b9d-4a61-8174-747ebbfea038.htm" />
+  <HelpKINode Title="Calculations.CalculateTriangleArea method" Url="html/ce26408e-6be3-2068-efd1-a682a46bbe94.htm" />
+  <HelpKINode Title="Calculations.FindMax method" Url="html/de270a5f-5c88-9725-4f29-57887d3abc55.htm" />
+  <HelpKINode Title="Calculations.IsHorizontalLine method" Url="html/7e24a214-605f-ffee-4d56-361e7272d485.htm" />
+  <HelpKINode Title="Calculations.IsVerticalLine method" Url="html/13f62fd1-4ae5-ce82-dca9-16aa004b682f.htm" />
+  <HelpKINode Title="ClassStudentTests class">
+    <HelpKINode Title="ClassStudentTests Class" Url="html/b37b5c55-f45e-4196-e370-5d6326090152.htm" />
+    <HelpKINode Title="about ClassStudentTests class" Url="html/b37b5c55-f45e-4196-e370-5d6326090152.htm" />
+    <HelpKINode Title="constructor" Url="html/68ba3546-3005-3eae-2087-941d1679329e.htm" />
+    <HelpKINode Title="methods" Url="html/7b50f5fb-93b3-b2c7-588f-dc3e39ae6546.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ClassStudentTests namespace" Url="html/50e09871-60cf-c08e-575d-a6ed7431399c.htm" />
+  <HelpKINode Title="ClassStudentTests.ClassStudentTests class" Url="html/b37b5c55-f45e-4196-e370-5d6326090152.htm" />
+  <HelpKINode Title="ClassStudentTests.ClassStudentTests constructor" Url="html/68ba3546-3005-3eae-2087-941d1679329e.htm" />
+  <HelpKINode Title="ClassStudentTests.FirstName_WhenFirstNameIsEmpty_ShouldThrowArgumentNullException method" Url="html/49dcb83c-3c6b-30c5-88e1-95815727a5cc.htm" />
+  <HelpKINode Title="ClassStudentTests.GetDateOfBirth_WhenDateOfBirthInfoIsCorrect_ShouldPassTest method" Url="html/d0580a7b-2c44-946b-b445-2c9bcfe6ea64.htm" />
+  <HelpKINode Title="ClassStudentTests.GetDateOfBirth_WhenDateOfBirthInfoIsInWrongFormat_ShouldThrowFormatException method" Url="html/36c4abf2-1375-3256-f4e5-87ffbbb2c036.htm" />
+  <HelpKINode Title="ClassStudentTests.GetDateOfBirth_WhenDateOfBirthInfoIsMissing_ShouldThrowFormatException method" Url="html/affc2bed-ce8c-1d4d-3f36-ad4cfad39512.htm" />
+  <HelpKINode Title="ClassStudentTests.IsOlderThan_WhenDateOfBirthInfoForBothStudentsIsCorrect_ShouldPassTest method" Url="html/8f4568a8-679a-caa4-bfae-55d0f8fd9409.htm" />
+  <HelpKINode Title="ClassStudentTests.IsOlderThan_WhenDateOfBirthInfoForOneOrBothStudentsIsMissing_ShouldThrowArgumentException method" Url="html/f11757d9-3d5c-e03b-06b6-0e60e326d0d7.htm" />
+  <HelpKINode Title="ClassStudentTests.LastName_WhenLastNameIsEmpty_ShouldThrowArgumentNullException method" Url="html/239bd8b8-f07c-a1bc-3836-0b83783b8c91.htm" />
+  <HelpKINode Title="ClassStudentTests.Student_CreateStudentWithValidNames_ShouldPassTest method" Url="html/f8bd3e05-01ac-f74d-3efd-fb152ec69c30.htm" />
+  <HelpKINode Title="FindMax method" Url="html/de270a5f-5c88-9725-4f29-57887d3abc55.htm" />
+  <HelpKINode Title="FindMax_WhenTheInputArrayIsEmpty_ShouldThrowArgumentNullException method" Url="html/7c12e0c6-7273-044b-7b63-228c8a41af71.htm" />
+  <HelpKINode Title="FindMax_WhenTheInputArrayIsNotEmpty_ShouldPassTest method" Url="html/161faabc-03f3-9fa3-9f6a-3fff8e147c87.htm" />
+  <HelpKINode Title="FirstName property" Url="html/27ca5bd6-d6df-d940-f751-d3c8bf188705.htm" />
+  <HelpKINode Title="FirstName_WhenFirstNameIsEmpty_ShouldThrowArgumentNullException method" Url="html/49dcb83c-3c6b-30c5-88e1-95815727a5cc.htm" />
+  <HelpKINode Title="FormatNumber method" Url="html/b7edab9a-c6fe-df98-7db3-ea032ab8b853.htm" />
+  <HelpKINode Title="FormatNumber_WhenFormatStringIsInvalid_ShouldThrowArgumentException method" Url="html/1dafa4ad-2152-65bf-d6ae-9a149c2c9eba.htm" />
+  <HelpKINode Title="FormatNumber_WhenFormatStringIsValidShouldPassTest method" Url="html/bc40723e-beb7-842c-98bc-3767882705e2.htm" />
+  <HelpKINode Title="Formatting class">
+    <HelpKINode Title="Formatting Class" Url="html/457a418a-21c2-7f79-2e05-9c06be6db560.htm" />
+    <HelpKINode Title="about Formatting class" Url="html/457a418a-21c2-7f79-2e05-9c06be6db560.htm" />
+    <HelpKINode Title="methods" Url="html/f1fecde8-2d8a-fdda-09de-71de17c4c32d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Formatting.FormatNumber method" Url="html/b7edab9a-c6fe-df98-7db3-ea032ab8b853.htm" />
+  <HelpKINode Title="Formatting.PrintDigitAsWord method" Url="html/8626eb13-9176-9a57-7508-7fc20574c283.htm" />
+  <HelpKINode Title="GetDateOfBirth method" Url="html/d3fe9429-2cfb-439b-319c-e0d1e3916822.htm" />
+  <HelpKINode Title="GetDateOfBirth_WhenDateOfBirthInfoIsCorrect_ShouldPassTest method" Url="html/d0580a7b-2c44-946b-b445-2c9bcfe6ea64.htm" />
+  <HelpKINode Title="GetDateOfBirth_WhenDateOfBirthInfoIsInWrongFormat_ShouldThrowFormatException method" Url="html/36c4abf2-1375-3256-f4e5-87ffbbb2c036.htm" />
+  <HelpKINode Title="GetDateOfBirth_WhenDateOfBirthInfoIsMissing_ShouldThrowFormatException method" Url="html/affc2bed-ce8c-1d4d-3f36-ad4cfad39512.htm" />
+  <HelpKINode Title="IsHorizontalLine method" Url="html/7e24a214-605f-ffee-4d56-361e7272d485.htm" />
+  <HelpKINode Title="IsHorizontalLine_ShouldPassTest method" Url="html/799b4693-ca2d-437e-8e81-659aec662957.htm" />
+  <HelpKINode Title="IsOlderThan method" Url="html/a5c74faf-20e9-3d6d-a681-816fa6818cc7.htm" />
+  <HelpKINode Title="IsOlderThan_WhenDateOfBirthInfoForBothStudentsIsCorrect_ShouldPassTest method" Url="html/8f4568a8-679a-caa4-bfae-55d0f8fd9409.htm" />
+  <HelpKINode Title="IsOlderThan_WhenDateOfBirthInfoForOneOrBothStudentsIsMissing_ShouldThrowArgumentException method" Url="html/f11757d9-3d5c-e03b-06b6-0e60e326d0d7.htm" />
+  <HelpKINode Title="IsVerticalLine method" Url="html/13f62fd1-4ae5-ce82-dca9-16aa004b682f.htm" />
+  <HelpKINode Title="IsVerticalLine_ShouldPassTest method" Url="html/eb6bf117-4ed4-942d-dc56-6441a86d95dd.htm" />
+  <HelpKINode Title="LastName property" Url="html/850f2621-2708-45dd-fcad-5d3a816a34f7.htm" />
+  <HelpKINode Title="LastName_WhenLastNameIsEmpty_ShouldThrowArgumentNullException method" Url="html/239bd8b8-f07c-a1bc-3836-0b83783b8c91.htm" />
+  <HelpKINode Title="Main method" Url="html/3e2cda60-f02a-bd07-5246-17848ba32e50.htm" />
+  <HelpKINode Title="Methods namespace" Url="html/432ecd68-2536-2671-bab2-e34cfc34388d.htm" />
+  <HelpKINode Title="Methods.MethodsMain class" Url="html/05af3e5f-8e25-d9e3-ffe2-95d05612956e.htm" />
+  <HelpKINode Title="Methods.Method_Classes namespace" Url="html/c00e5939-47bf-1614-0e41-6306cdeb45b4.htm" />
+  <HelpKINode Title="Methods.Method_Classes.Calculations class" Url="html/c1f4add8-3f32-d2cb-287c-15426bbdf8b4.htm" />
+  <HelpKINode Title="Methods.Method_Classes.Formatting class" Url="html/457a418a-21c2-7f79-2e05-9c06be6db560.htm" />
+  <HelpKINode Title="Methods.Student class" Url="html/cfeeabab-a7a9-0d9c-8387-1e0cbe68d702.htm" />
+  <HelpKINode Title="MethodsMain class">
+    <HelpKINode Title="MethodsMain Class" Url="html/05af3e5f-8e25-d9e3-ffe2-95d05612956e.htm" />
+    <HelpKINode Title="about MethodsMain class" Url="html/05af3e5f-8e25-d9e3-ffe2-95d05612956e.htm" />
+    <HelpKINode Title="constructor" Url="html/894844b9-a6eb-1bcd-88a1-d80ca3026716.htm" />
+    <HelpKINode Title="methods" Url="html/39a0d47f-7586-5187-872e-ce10431fb0a0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MethodsMain.Main method" Url="html/3e2cda60-f02a-bd07-5246-17848ba32e50.htm" />
+  <HelpKINode Title="MethodsMain.MethodsMain constructor" Url="html/894844b9-a6eb-1bcd-88a1-d80ca3026716.htm" />
+  <HelpKINode Title="MethodsUnitTests class">
+    <HelpKINode Title="MethodsUnitTests Class" Url="html/9962f986-f686-0769-75d4-026589d98b54.htm" />
+    <HelpKINode Title="about MethodsUnitTests class" Url="html/9962f986-f686-0769-75d4-026589d98b54.htm" />
+    <HelpKINode Title="constructor" Url="html/2fcf9a04-f8cc-b951-14c2-1d66e601fdac.htm" />
+    <HelpKINode Title="methods" Url="html/6e1c1b16-8461-adc4-6350-0b1af9046f8e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MethodsUnitTests namespace" Url="html/26c47a5c-4047-3caa-82cc-902a6f2db677.htm" />
+  <HelpKINode Title="MethodsUnitTests.CalculateDistance_ShouldPassTest method" Url="html/d0f9a748-cd44-11a7-9c92-8644cce64206.htm" />
+  <HelpKINode Title="MethodsUnitTests.CalculateTriangleArea_WhenAllArgumentsAreValid_ShouldPassTest method" Url="html/61232d5d-1672-ecba-46ec-fe207b07a0f9.htm" />
+  <HelpKINode Title="MethodsUnitTests.CalculateTriangleArea_WhenOneOrMoreArgumentsAreNegative_ShouldThrowArgumentException method" Url="html/8d13a8c6-73a6-055c-a111-351a49365bcd.htm" />
+  <HelpKINode Title="MethodsUnitTests.FindMax_WhenTheInputArrayIsEmpty_ShouldThrowArgumentNullException method" Url="html/7c12e0c6-7273-044b-7b63-228c8a41af71.htm" />
+  <HelpKINode Title="MethodsUnitTests.FindMax_WhenTheInputArrayIsNotEmpty_ShouldPassTest method" Url="html/161faabc-03f3-9fa3-9f6a-3fff8e147c87.htm" />
+  <HelpKINode Title="MethodsUnitTests.FormatNumber_WhenFormatStringIsInvalid_ShouldThrowArgumentException method" Url="html/1dafa4ad-2152-65bf-d6ae-9a149c2c9eba.htm" />
+  <HelpKINode Title="MethodsUnitTests.FormatNumber_WhenFormatStringIsValidShouldPassTest method" Url="html/bc40723e-beb7-842c-98bc-3767882705e2.htm" />
+  <HelpKINode Title="MethodsUnitTests.IsHorizontalLine_ShouldPassTest method" Url="html/799b4693-ca2d-437e-8e81-659aec662957.htm" />
+  <HelpKINode Title="MethodsUnitTests.IsVerticalLine_ShouldPassTest method" Url="html/eb6bf117-4ed4-942d-dc56-6441a86d95dd.htm" />
+  <HelpKINode Title="MethodsUnitTests.MethodsUnitTests class" Url="html/9962f986-f686-0769-75d4-026589d98b54.htm" />
+  <HelpKINode Title="MethodsUnitTests.MethodsUnitTests constructor" Url="html/2fcf9a04-f8cc-b951-14c2-1d66e601fdac.htm" />
+  <HelpKINode Title="MethodsUnitTests.PrintDigitAsWord_ShouldPassTest method" Url="html/f24d1ede-5592-fc2b-c9b8-9f66e217d186.htm" />
+  <HelpKINode Title="MethodsUnitTests.PrintDigitAsWord_WhenTheInputIsNotADigit_ShouldReturnErrorMessage method" Url="html/956c195f-20da-d68b-2b9c-3739d10e7b7b.htm" />
+  <HelpKINode Title="PrintDigitAsWord method" Url="html/8626eb13-9176-9a57-7508-7fc20574c283.htm" />
+  <HelpKINode Title="PrintDigitAsWord_ShouldPassTest method" Url="html/f24d1ede-5592-fc2b-c9b8-9f66e217d186.htm" />
+  <HelpKINode Title="PrintDigitAsWord_WhenTheInputIsNotADigit_ShouldReturnErrorMessage method" Url="html/956c195f-20da-d68b-2b9c-3739d10e7b7b.htm" />
+  <HelpKINode Title="Student class">
+    <HelpKINode Title="Student Class" Url="html/cfeeabab-a7a9-0d9c-8387-1e0cbe68d702.htm" />
+    <HelpKINode Title="about Student class" Url="html/cfeeabab-a7a9-0d9c-8387-1e0cbe68d702.htm" />
+    <HelpKINode Title="constructor" Url="html/d69060fc-8c0e-a69d-2953-8bc7688fbb61.htm" />
+    <HelpKINode Title="methods" Url="html/cfa72712-081d-a3e0-0f62-97942e56cc2f.htm" />
+    <HelpKINode Title="properties" Url="html/441be411-9858-681f-d15c-a281f84b11fa.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Student.AdditionalInfo property" Url="html/f69c2515-0ef6-2d30-cd01-83362d4b4a59.htm" />
+  <HelpKINode Title="Student.FirstName property" Url="html/27ca5bd6-d6df-d940-f751-d3c8bf188705.htm" />
+  <HelpKINode Title="Student.GetDateOfBirth method" Url="html/d3fe9429-2cfb-439b-319c-e0d1e3916822.htm" />
+  <HelpKINode Title="Student.IsOlderThan method" Url="html/a5c74faf-20e9-3d6d-a681-816fa6818cc7.htm" />
+  <HelpKINode Title="Student.LastName property" Url="html/850f2621-2708-45dd-fcad-5d3a816a34f7.htm" />
+  <HelpKINode Title="Student.Student constructor" Url="html/d69060fc-8c0e-a69d-2953-8bc7688fbb61.htm" />
+  <HelpKINode Title="Student_CreateStudentWithValidNames_ShouldPassTest method" Url="html/f8bd3e05-01ac-f74d-3efd-fb152ec69c30.htm" />
+</HelpKI>

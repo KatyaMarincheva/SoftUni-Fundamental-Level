@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="1d3d6315-0c92-42ad-9cab-7ec8b4485e1a" Title="ClassStudentTests" Url="html/50e09871-60cf-c08e-575d-a6ed7431399c.htm">
+    <HelpTOCNode Id="d54a55f1-8d95-48e5-9ea5-e10d59519426" Title="ClassStudentTests Class" Url="html/b37b5c55-f45e-4196-e370-5d6326090152.htm">
+      <HelpTOCNode Title="ClassStudentTests Constructor " Url="html/68ba3546-3005-3eae-2087-941d1679329e.htm" />
+      <HelpTOCNode Id="d6e7b5dd-5405-4351-a2fd-589586125cdd" Title="ClassStudentTests Methods" Url="html/7b50f5fb-93b3-b2c7-588f-dc3e39ae6546.htm">
+        <HelpTOCNode Title="FirstName_WhenFirstNameIsEmpty_ShouldThrowArgumentNullException Method " Url="html/49dcb83c-3c6b-30c5-88e1-95815727a5cc.htm" />
+        <HelpTOCNode Title="GetDateOfBirth_WhenDateOfBirthInfoIsCorrect_ShouldPassTest Method " Url="html/d0580a7b-2c44-946b-b445-2c9bcfe6ea64.htm" />
+        <HelpTOCNode Title="GetDateOfBirth_WhenDateOfBirthInfoIsInWrongFormat_ShouldThrowFormatException Method " Url="html/36c4abf2-1375-3256-f4e5-87ffbbb2c036.htm" />
+        <HelpTOCNode Title="GetDateOfBirth_WhenDateOfBirthInfoIsMissing_ShouldThrowFormatException Method " Url="html/affc2bed-ce8c-1d4d-3f36-ad4cfad39512.htm" />
+        <HelpTOCNode Title="IsOlderThan_WhenDateOfBirthInfoForBothStudentsIsCorrect_ShouldPassTest Method " Url="html/8f4568a8-679a-caa4-bfae-55d0f8fd9409.htm" />
+        <HelpTOCNode Title="IsOlderThan_WhenDateOfBirthInfoForOneOrBothStudentsIsMissing_ShouldThrowArgumentException Method " Url="html/f11757d9-3d5c-e03b-06b6-0e60e326d0d7.htm" />
+        <HelpTOCNode Title="LastName_WhenLastNameIsEmpty_ShouldThrowArgumentNullException Method " Url="html/239bd8b8-f07c-a1bc-3836-0b83783b8c91.htm" />
+        <HelpTOCNode Title="Student_CreateStudentWithValidNames_ShouldPassTest Method " Url="html/f8bd3e05-01ac-f74d-3efd-fb152ec69c30.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="85834b12-8882-4c5e-a3a7-62402ef00496" Title="Methods" Url="html/432ecd68-2536-2671-bab2-e34cfc34388d.htm">
+    <HelpTOCNode Id="28578d90-f02b-438d-baec-1e1b2c60451d" Title="MethodsMain Class" Url="html/05af3e5f-8e25-d9e3-ffe2-95d05612956e.htm">
+      <HelpTOCNode Title="MethodsMain Constructor " Url="html/894844b9-a6eb-1bcd-88a1-d80ca3026716.htm" />
+      <HelpTOCNode Id="3c9489e8-9dfd-4b16-b7a8-b70b3873983d" Title="MethodsMain Methods" Url="html/39a0d47f-7586-5187-872e-ce10431fb0a0.htm">
+        <HelpTOCNode Title="Main Method " Url="html/3e2cda60-f02a-bd07-5246-17848ba32e50.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7c5851ac-6ce4-42e6-9b3f-35e7bb843fb5" Title="Student Class" Url="html/cfeeabab-a7a9-0d9c-8387-1e0cbe68d702.htm">
+      <HelpTOCNode Title="Student Constructor " Url="html/d69060fc-8c0e-a69d-2953-8bc7688fbb61.htm" />
+      <HelpTOCNode Id="6eb0bda7-e74b-4d74-8fe1-4613d2e40991" Title="Student Methods" Url="html/cfa72712-081d-a3e0-0f62-97942e56cc2f.htm">
+        <HelpTOCNode Title="GetDateOfBirth Method " Url="html/d3fe9429-2cfb-439b-319c-e0d1e3916822.htm" />
+        <HelpTOCNode Title="IsOlderThan Method " Url="html/a5c74faf-20e9-3d6d-a681-816fa6818cc7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4edaee48-c4e6-468b-bd78-8f43b46d8074" Title="Student Properties" Url="html/441be411-9858-681f-d15c-a281f84b11fa.htm">
+        <HelpTOCNode Title="AdditionalInfo Property " Url="html/f69c2515-0ef6-2d30-cd01-83362d4b4a59.htm" />
+        <HelpTOCNode Title="FirstName Property " Url="html/27ca5bd6-d6df-d940-f751-d3c8bf188705.htm" />
+        <HelpTOCNode Title="LastName Property " Url="html/850f2621-2708-45dd-fcad-5d3a816a34f7.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="0c05f80f-81b7-4d52-ac1c-c9b19ca571cf" Title="Methods.Method_Classes" Url="html/c00e5939-47bf-1614-0e41-6306cdeb45b4.htm">
+    <HelpTOCNode Id="784d6b88-63c6-4439-9920-10c79598a748" Title="Calculations Class" Url="html/c1f4add8-3f32-d2cb-287c-15426bbdf8b4.htm">
+      <HelpTOCNode Id="c929281e-b00a-4a7e-928b-0648cafdde52" Title="Calculations Methods" Url="html/17642843-31bf-069a-9a4f-f7ad6fcf9ee1.htm">
+        <HelpTOCNode Title="CalculateDistance Method " Url="html/cd51cdbc-1b9d-4a61-8174-747ebbfea038.htm" />
+        <HelpTOCNode Title="CalculateTriangleArea Method " Url="html/ce26408e-6be3-2068-efd1-a682a46bbe94.htm" />
+        <HelpTOCNode Title="FindMax Method " Url="html/de270a5f-5c88-9725-4f29-57887d3abc55.htm" />
+        <HelpTOCNode Title="IsHorizontalLine Method " Url="html/7e24a214-605f-ffee-4d56-361e7272d485.htm" />
+        <HelpTOCNode Title="IsVerticalLine Method " Url="html/13f62fd1-4ae5-ce82-dca9-16aa004b682f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f34faffd-1da8-4766-bba7-463a44d086ee" Title="Formatting Class" Url="html/457a418a-21c2-7f79-2e05-9c06be6db560.htm">
+      <HelpTOCNode Id="f6f7eed1-a919-4cd1-a9c7-f196e9ad9f46" Title="Formatting Methods" Url="html/f1fecde8-2d8a-fdda-09de-71de17c4c32d.htm">
+        <HelpTOCNode Title="FormatNumber Method " Url="html/b7edab9a-c6fe-df98-7db3-ea032ab8b853.htm" />
+        <HelpTOCNode Title="PrintDigitAsWord Method " Url="html/8626eb13-9176-9a57-7508-7fc20574c283.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="9820669b-c44b-42d2-9cf9-7c477a52698c" Title="MethodsUnitTests" Url="html/26c47a5c-4047-3caa-82cc-902a6f2db677.htm">
+    <HelpTOCNode Id="162990ce-58dd-48e8-978a-52dcde0da0c0" Title="MethodsUnitTests Class" Url="html/9962f986-f686-0769-75d4-026589d98b54.htm">
+      <HelpTOCNode Title="MethodsUnitTests Constructor " Url="html/2fcf9a04-f8cc-b951-14c2-1d66e601fdac.htm" />
+      <HelpTOCNode Id="b19942d9-7099-4bf8-8191-ed3f9b945baf" Title="MethodsUnitTests Methods" Url="html/6e1c1b16-8461-adc4-6350-0b1af9046f8e.htm">
+        <HelpTOCNode Title="CalculateDistance_ShouldPassTest Method " Url="html/d0f9a748-cd44-11a7-9c92-8644cce64206.htm" />
+        <HelpTOCNode Title="CalculateTriangleArea_WhenAllArgumentsAreValid_ShouldPassTest Method " Url="html/61232d5d-1672-ecba-46ec-fe207b07a0f9.htm" />
+        <HelpTOCNode Title="CalculateTriangleArea_WhenOneOrMoreArgumentsAreNegative_ShouldThrowArgumentException Method " Url="html/8d13a8c6-73a6-055c-a111-351a49365bcd.htm" />
+        <HelpTOCNode Title="FindMax_WhenTheInputArrayIsEmpty_ShouldThrowArgumentNullException Method " Url="html/7c12e0c6-7273-044b-7b63-228c8a41af71.htm" />
+        <HelpTOCNode Title="FindMax_WhenTheInputArrayIsNotEmpty_ShouldPassTest Method " Url="html/161faabc-03f3-9fa3-9f6a-3fff8e147c87.htm" />
+        <HelpTOCNode Title="FormatNumber_WhenFormatStringIsInvalid_ShouldThrowArgumentException Method " Url="html/1dafa4ad-2152-65bf-d6ae-9a149c2c9eba.htm" />
+        <HelpTOCNode Title="FormatNumber_WhenFormatStringIsValidShouldPassTest Method " Url="html/bc40723e-beb7-842c-98bc-3767882705e2.htm" />
+        <HelpTOCNode Title="IsHorizontalLine_ShouldPassTest Method " Url="html/799b4693-ca2d-437e-8e81-659aec662957.htm" />
+        <HelpTOCNode Title="IsVerticalLine_ShouldPassTest Method " Url="html/eb6bf117-4ed4-942d-dc56-6441a86d95dd.htm" />
+        <HelpTOCNode Title="PrintDigitAsWord_ShouldPassTest Method " Url="html/f24d1ede-5592-fc2b-c9b8-9f66e217d186.htm" />
+        <HelpTOCNode Title="PrintDigitAsWord_WhenTheInputIsNotADigit_ShouldReturnErrorMessage Method " Url="html/956c195f-20da-d68b-2b9c-3739d10e7b7b.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
