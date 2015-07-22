@@ -17,6 +17,29 @@
     <OutputPath>.\Help\</OutputPath>
     <HtmlHelpName>Documentation</HtmlHelpName>
     <Language>en-US</Language>
+    <ProjectSummary>Mass Effect Documentation.</ProjectSummary>
+    <DocumentationSources>
+      <DocumentationSource sourceFile="..\MassEffect.sln" xmlns="" />
+    </DocumentationSources>
+    <NamespaceSummaries>
+      <NamespaceSummaryItem name="MassEffect" isDocumented="True" xmlns="">Mass Effect Game Documentation</NamespaceSummaryItem>
+<NamespaceSummaryItem name="MassEffect.Engine" isDocumented="True" xmlns="">Mass Effect Engine Documentation</NamespaceSummaryItem>
+<NamespaceSummaryItem name="MassEffect.Engine.Commands" isDocumented="True" xmlns="">Mass Effect Engine Commands Documentation</NamespaceSummaryItem>
+<NamespaceSummaryItem name="MassEffect.Engine.Factories" isDocumented="True" xmlns="">Mass Effect Engine Factories Documentation</NamespaceSummaryItem>
+<NamespaceSummaryItem name="MassEffect.Exceptions" isDocumented="True" xmlns="">Mass Effect Exceptions Documentation</NamespaceSummaryItem>
+<NamespaceSummaryItem name="MassEffect.GameObjects" isDocumented="True" xmlns="">Mass Effect GameObjects Documentation</NamespaceSummaryItem>
+<NamespaceSummaryItem name="MassEffect.GameObjects.Enhancements" isDocumented="True" xmlns="">Mass Effect GameObjects Enhancements Documentation</NamespaceSummaryItem>
+<NamespaceSummaryItem name="MassEffect.GameObjects.Locations" isDocumented="True" xmlns="">Mass Effect GameObjects Locations Documentation</NamespaceSummaryItem>
+<NamespaceSummaryItem name="MassEffect.GameObjects.Projectiles" isDocumented="True" xmlns="">Mass Effect GameObjects Projectiles Documentation</NamespaceSummaryItem>
+<NamespaceSummaryItem name="MassEffect.GameObjects.Ships" isDocumented="True" xmlns="">Mass Effect GameObjects Ships Documentation</NamespaceSummaryItem>
+<NamespaceSummaryItem name="MassEffect.Interfaces" isDocumented="True" xmlns="">Mass Effect GameObjects Interfaces Documentation</NamespaceSummaryItem></NamespaceSummaries>
+    <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
+    <HelpFileFormat>HtmlHelp1, Website</HelpFileFormat>
+    <IndentHtml>False</IndentHtml>
+    <KeepLogFile>True</KeepLogFile>
+    <DisableCodeBlockComponent>False</DisableCodeBlockComponent>
+    <CppCommentsFixup>False</CppCommentsFixup>
+    <CleanIntermediates>True</CleanIntermediates>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
