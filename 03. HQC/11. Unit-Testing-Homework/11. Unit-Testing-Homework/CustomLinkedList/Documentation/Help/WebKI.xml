@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Add method" Url="html/8445eef5-7bb8-3db3-41f3-47ac29022bb8.htm" />
+  <HelpKINode Title="AddCleanupAction method" Url="html/9639caa1-6711-9d08-0b10-b0580a9771ee.htm" />
+  <HelpKINode Title="Add_TestAddedElementValue_ShouldPassTest method" Url="html/9a3a8d75-1580-997c-63c6-06dbea3be5d4.htm" />
+  <HelpKINode Title="ClassCleanup method" Url="html/cd4164ee-bbba-ddec-27d4-89bc09181f36.htm" />
+  <HelpKINode Title="Cleanup method" Url="html/6ce511a8-be70-41e0-1396-937f48d47b69.htm" />
+  <HelpKINode Title="Clear method" Url="html/bab8da18-dbec-e01c-5770-d002eef0bd99.htm" />
+  <HelpKINode Title="Contains method" Url="html/2e09fc46-a4ca-9f19-d3d9-f2ab0f4027eb.htm" />
+  <HelpKINode Title="Contains_TestOnExisingElement_ShouldPassTest method" Url="html/be22db2e-e949-a535-aa9a-5aeb139d8473.htm" />
+  <HelpKINode Title="Contains_TestOnNonExisingElement_ShouldPassTest method" Url="html/521c3cc0-5ace-55f6-7e05-912b397b398f.htm" />
+  <HelpKINode Title="Count property" Url="html/6268b0b2-4f2e-1643-34fc-75c76e346e53.htm" />
+  <HelpKINode Title="Count_TestAfterRemovingElementFromList_ShouldPassTest method" Url="html/0702cf7c-fb7b-3d76-920b-f8166a042397.htm" />
+  <HelpKINode Title="Count_TestAfterRemovingNonExistingElementFromList_ShouldPassTest method" Url="html/f9d9a8f7-d25c-be9c-6fb3-d4e632254a34.htm" />
+  <HelpKINode Title="Count_TestCountAfterAddingOneElement_ShouldPassTest method" Url="html/1dce8e7b-3645-f0d8-9cdb-de53a5deed7a.htm" />
+  <HelpKINode Title="Count_TestCountOnNewListCreation_ShouldPassTest method" Url="html/13774703-ae43-d910-32ac-9d75305804cb.htm" />
+  <HelpKINode Title="Count_TestListCountAfterRemoveAt_ShouldPassTest method" Url="html/18a7c2ed-b3fc-51e7-849e-d0dd52586c6d.htm" />
+  <HelpKINode Title="CustomLinkedList namespace" Url="html/d054e358-50c0-8e0d-74ab-aaf7b063ed1b.htm" />
+  <HelpKINode Title="CustomLinkedList.DynamicList(Of T) class" Url="html/64f69d2c-cba0-9b40-1883-920c7ba1b77f.htm" />
+  <HelpKINode Title="CustomLinkedList.DynamicList&lt;T&gt; class" Url="html/64f69d2c-cba0-9b40-1883-920c7ba1b77f.htm" />
+  <HelpKINode Title="CustomLinkedListUnitTest namespace" Url="html/c93f871d-100b-972c-1073-f03514b4d544.htm" />
+  <HelpKINode Title="CustomLinkedListUnitTest.DynamicListUnitTest class" Url="html/4bbb4c1d-046d-4855-1c5e-b1a0570a37e6.htm" />
+  <HelpKINode Title="CustomLinkedListUnitTests namespace" Url="html/4b462837-2868-75e2-5c46-d0bef5ef9bd2.htm" />
+  <HelpKINode Title="CustomLinkedListUnitTests.TestBase class" Url="html/f2047bb7-c29d-a394-062e-872fcf631dad.htm" />
+  <HelpKINode Title="DynamicList property" Url="html/a46cfa54-b3f3-f80d-8505-93420f2e87fc.htm" />
+  <HelpKINode Title="DynamicList(Of T) class">
+    <HelpKINode Title="DynamicList(T) Class" Url="html/64f69d2c-cba0-9b40-1883-920c7ba1b77f.htm" />
+    <HelpKINode Title="about DynamicList(Of T) class" Url="html/64f69d2c-cba0-9b40-1883-920c7ba1b77f.htm" />
+    <HelpKINode Title="constructor" Url="html/9f737486-2955-cb63-de1c-ec385e86e3d4.htm" />
+    <HelpKINode Title="methods" Url="html/d5879829-c25c-4dba-1730-95428bf84a5b.htm" />
+    <HelpKINode Title="properties" Url="html/936b8a1c-e508-acf1-6444-10adf42be9e6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DynamicList(Of T).Add method" Url="html/8445eef5-7bb8-3db3-41f3-47ac29022bb8.htm" />
+  <HelpKINode Title="DynamicList(Of T).Clear method" Url="html/bab8da18-dbec-e01c-5770-d002eef0bd99.htm" />
+  <HelpKINode Title="DynamicList(Of T).Contains method" Url="html/2e09fc46-a4ca-9f19-d3d9-f2ab0f4027eb.htm" />
+  <HelpKINode Title="DynamicList(Of T).Count property" Url="html/6268b0b2-4f2e-1643-34fc-75c76e346e53.htm" />
+  <HelpKINode Title="DynamicList(Of T).DynamicList constructor" Url="html/9f737486-2955-cb63-de1c-ec385e86e3d4.htm" />
+  <HelpKINode Title="DynamicList(Of T).IndexOf method" Url="html/61b1de44-cd32-016b-e27c-99a72aff211c.htm" />
+  <HelpKINode Title="DynamicList(Of T).Item property" Url="html/e601ed28-c70f-de5f-7787-7ececf3de937.htm" />
+  <HelpKINode Title="DynamicList(Of T).Remove method" Url="html/10d6b96f-681a-fa77-a626-e6c093b9c437.htm" />
+  <HelpKINode Title="DynamicList(Of T).RemoveAt method" Url="html/3511e85c-feee-8a19-9f50-b405b93bd3f3.htm" />
+  <HelpKINode Title="DynamicList&lt;T&gt; class">
+    <HelpKINode Title="DynamicList(T) Class" Url="html/64f69d2c-cba0-9b40-1883-920c7ba1b77f.htm" />
+    <HelpKINode Title="about DynamicList&lt;T&gt; class" Url="html/64f69d2c-cba0-9b40-1883-920c7ba1b77f.htm" />
+    <HelpKINode Title="constructor" Url="html/9f737486-2955-cb63-de1c-ec385e86e3d4.htm" />
+    <HelpKINode Title="methods" Url="html/d5879829-c25c-4dba-1730-95428bf84a5b.htm" />
+    <HelpKINode Title="properties" Url="html/936b8a1c-e508-acf1-6444-10adf42be9e6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DynamicList&lt;T&gt;.Add method" Url="html/8445eef5-7bb8-3db3-41f3-47ac29022bb8.htm" />
+  <HelpKINode Title="DynamicList&lt;T&gt;.Clear method" Url="html/bab8da18-dbec-e01c-5770-d002eef0bd99.htm" />
+  <HelpKINode Title="DynamicList&lt;T&gt;.Contains method" Url="html/2e09fc46-a4ca-9f19-d3d9-f2ab0f4027eb.htm" />
+  <HelpKINode Title="DynamicList&lt;T&gt;.Count property" Url="html/6268b0b2-4f2e-1643-34fc-75c76e346e53.htm" />
+  <HelpKINode Title="DynamicList&lt;T&gt;.DynamicList constructor" Url="html/9f737486-2955-cb63-de1c-ec385e86e3d4.htm" />
+  <HelpKINode Title="DynamicList&lt;T&gt;.IndexOf method" Url="html/61b1de44-cd32-016b-e27c-99a72aff211c.htm" />
+  <HelpKINode Title="DynamicList&lt;T&gt;.Item property" Url="html/e601ed28-c70f-de5f-7787-7ececf3de937.htm" />
+  <HelpKINode Title="DynamicList&lt;T&gt;.Remove method" Url="html/10d6b96f-681a-fa77-a626-e6c093b9c437.htm" />
+  <HelpKINode Title="DynamicList&lt;T&gt;.RemoveAt method" Url="html/3511e85c-feee-8a19-9f50-b405b93bd3f3.htm" />
+  <HelpKINode Title="DynamicListTestsInitialize method" Url="html/e6e6fda1-42b9-d34a-807f-4cb33679a59b.htm" />
+  <HelpKINode Title="DynamicListUnitTest class">
+    <HelpKINode Title="DynamicListUnitTest Class" Url="html/4bbb4c1d-046d-4855-1c5e-b1a0570a37e6.htm" />
+    <HelpKINode Title="about DynamicListUnitTest class" Url="html/4bbb4c1d-046d-4855-1c5e-b1a0570a37e6.htm" />
+    <HelpKINode Title="constructor" Url="html/dc5db734-c6dc-e3d8-7a16-69427a789947.htm" />
+    <HelpKINode Title="methods" Url="html/9b5913b9-0f53-a269-61e5-77c4dfd7765b.htm" />
+    <HelpKINode Title="properties" Url="html/7ff388b9-0f4f-d489-c913-d609c90c567a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DynamicListUnitTest.Add_TestAddedElementValue_ShouldPassTest method" Url="html/9a3a8d75-1580-997c-63c6-06dbea3be5d4.htm" />
+  <HelpKINode Title="DynamicListUnitTest.ClassCleanup method" Url="html/cd4164ee-bbba-ddec-27d4-89bc09181f36.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Cleanup method" Url="html/6ce511a8-be70-41e0-1396-937f48d47b69.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Contains_TestOnExisingElement_ShouldPassTest method" Url="html/be22db2e-e949-a535-aa9a-5aeb139d8473.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Contains_TestOnNonExisingElement_ShouldPassTest method" Url="html/521c3cc0-5ace-55f6-7e05-912b397b398f.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Count_TestAfterRemovingElementFromList_ShouldPassTest method" Url="html/0702cf7c-fb7b-3d76-920b-f8166a042397.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Count_TestAfterRemovingNonExistingElementFromList_ShouldPassTest method" Url="html/f9d9a8f7-d25c-be9c-6fb3-d4e632254a34.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Count_TestCountAfterAddingOneElement_ShouldPassTest method" Url="html/1dce8e7b-3645-f0d8-9cdb-de53a5deed7a.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Count_TestCountOnNewListCreation_ShouldPassTest method" Url="html/13774703-ae43-d910-32ac-9d75305804cb.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Count_TestListCountAfterRemoveAt_ShouldPassTest method" Url="html/18a7c2ed-b3fc-51e7-849e-d0dd52586c6d.htm" />
+  <HelpKINode Title="DynamicListUnitTest.DynamicList property" Url="html/a46cfa54-b3f3-f80d-8505-93420f2e87fc.htm" />
+  <HelpKINode Title="DynamicListUnitTest.DynamicListTestsInitialize method" Url="html/e6e6fda1-42b9-d34a-807f-4cb33679a59b.htm" />
+  <HelpKINode Title="DynamicListUnitTest.DynamicListUnitTest constructor" Url="html/dc5db734-c6dc-e3d8-7a16-69427a789947.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Elements_TestPositionsOfElementsAddedInSequence_ShouldPassTest method" Url="html/36c2dafe-196f-04dc-484d-d01d5fce2879.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Indexer_TestWithEmptyDynamicList_ShouldThrowArgumentOutOfRangeException method" Url="html/8ad7365c-e753-b4f4-b9dc-8c1bed3dfbcd.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Indexer_TestWithIndexBeyondListCount_ShouldThrowArgumentOutOfRangeException method" Url="html/098f2dd0-bd9c-65f0-dab6-6fcbd3678d65.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Indexer_TestWithNegativeIndex_ShouldThrowArgumentOutOfRangeException method" Url="html/b2003dc2-1398-28dd-64c7-8f544246f3fd.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Indexer_TestWithValidIndex_ShouldPassTest method" Url="html/7fc1659d-74e3-5ba1-b76e-cef2224c2597.htm" />
+  <HelpKINode Title="DynamicListUnitTest.IndexOf_TestOnExistingElement_ShouldPassTest method" Url="html/03120a1d-af69-7e98-fa80-17029a792ce9.htm" />
+  <HelpKINode Title="DynamicListUnitTest.IndexOf_TestOnNonExistingElement_ShouldPassTest method" Url="html/ca153bdc-9833-661b-07f0-19dc93747090.htm" />
+  <HelpKINode Title="DynamicListUnitTest.RemoveAt_TestRemainingElementsPositionsAfterRemoveAt_ShouldPassTest method" Url="html/ece1a7d5-4d33-e438-e3cf-23d19bcdcc80.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Remove_TestAtIndexBeyondListCount_ShouldThrowArgumentOutOfRangeException method" Url="html/5d39682c-4b00-25fb-0045-b3d7b061c456.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Remove_TestAtNegativeIndex_ShouldThrowArgumentOutOfRangeException method" Url="html/97fff86c-f8b1-81d2-e32d-22ee195dafaf.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Remove_TestRemainingElementsPositionsAfterRemove_ShouldPassTest method" Url="html/b2407cfc-60e0-7179-f8fb-94168cb5c9b7.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Remove_TestReturnValueAfterRemovingElementFromList_ShouldPassTest method" Url="html/284ec980-18ef-10d2-3e95-a9b6e0429952.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Remove_TestReturnValueAfterRemovingNonExistingElementFromList_ShouldPassTest method" Url="html/68714cc6-2d33-387c-8891-62c85664c432.htm" />
+  <HelpKINode Title="DynamicListUnitTest.ResetDynamicListObject method" Url="html/1c6addc2-6929-0087-83c5-c8251757c3a4.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Set_TestAtIndexBeyondListCount1_ShouldThrowArgumentOutOfRangeException method" Url="html/3f981529-32d0-3bb3-41b0-315b3da9bf6d.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Set_TestAtIndexBeyondListCount2_ShouldThrowArgumentOutOfRangeException method" Url="html/002962dd-5b83-cc47-0c6b-0aa0f1fa3067.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Set_TestAtNegativeIndex_ShouldThrowArgumentOutOfRangeException method" Url="html/c5b2e562-3cee-2b02-6800-e02fc211af44.htm" />
+  <HelpKINode Title="DynamicListUnitTest.Set_TestAtValidIndex_ShouldPassTest method" Url="html/3705eaf8-c9ee-e4ea-8a9f-f7e4a1381535.htm" />
+  <HelpKINode Title="DynamicListUnitTest.TestContext property" Url="html/413723b7-6527-8c20-ec79-5a2d4b28096f.htm" />
+  <HelpKINode Title="Elements_TestPositionsOfElementsAddedInSequence_ShouldPassTest method" Url="html/36c2dafe-196f-04dc-484d-d01d5fce2879.htm" />
+  <HelpKINode Title="Indexer_TestWithEmptyDynamicList_ShouldThrowArgumentOutOfRangeException method" Url="html/8ad7365c-e753-b4f4-b9dc-8c1bed3dfbcd.htm" />
+  <HelpKINode Title="Indexer_TestWithIndexBeyondListCount_ShouldThrowArgumentOutOfRangeException method" Url="html/098f2dd0-bd9c-65f0-dab6-6fcbd3678d65.htm" />
+  <HelpKINode Title="Indexer_TestWithNegativeIndex_ShouldThrowArgumentOutOfRangeException method" Url="html/b2003dc2-1398-28dd-64c7-8f544246f3fd.htm" />
+  <HelpKINode Title="Indexer_TestWithValidIndex_ShouldPassTest method" Url="html/7fc1659d-74e3-5ba1-b76e-cef2224c2597.htm" />
+  <HelpKINode Title="IndexOf method" Url="html/61b1de44-cd32-016b-e27c-99a72aff211c.htm" />
+  <HelpKINode Title="IndexOf_TestOnExistingElement_ShouldPassTest method" Url="html/03120a1d-af69-7e98-fa80-17029a792ce9.htm" />
+  <HelpKINode Title="IndexOf_TestOnNonExistingElement_ShouldPassTest method" Url="html/ca153bdc-9833-661b-07f0-19dc93747090.htm" />
+  <HelpKINode Title="Item property" Url="html/e601ed28-c70f-de5f-7787-7ececf3de937.htm" />
+  <HelpKINode Title="Remove method" Url="html/10d6b96f-681a-fa77-a626-e6c093b9c437.htm" />
+  <HelpKINode Title="RemoveAt method" Url="html/3511e85c-feee-8a19-9f50-b405b93bd3f3.htm" />
+  <HelpKINode Title="RemoveAt_TestRemainingElementsPositionsAfterRemoveAt_ShouldPassTest method" Url="html/ece1a7d5-4d33-e438-e3cf-23d19bcdcc80.htm" />
+  <HelpKINode Title="Remove_TestAtIndexBeyondListCount_ShouldThrowArgumentOutOfRangeException method" Url="html/5d39682c-4b00-25fb-0045-b3d7b061c456.htm" />
+  <HelpKINode Title="Remove_TestAtNegativeIndex_ShouldThrowArgumentOutOfRangeException method" Url="html/97fff86c-f8b1-81d2-e32d-22ee195dafaf.htm" />
+  <HelpKINode Title="Remove_TestRemainingElementsPositionsAfterRemove_ShouldPassTest method" Url="html/b2407cfc-60e0-7179-f8fb-94168cb5c9b7.htm" />
+  <HelpKINode Title="Remove_TestReturnValueAfterRemovingElementFromList_ShouldPassTest method" Url="html/284ec980-18ef-10d2-3e95-a9b6e0429952.htm" />
+  <HelpKINode Title="Remove_TestReturnValueAfterRemovingNonExistingElementFromList_ShouldPassTest method" Url="html/68714cc6-2d33-387c-8891-62c85664c432.htm" />
+  <HelpKINode Title="ResetDynamicListObject method" Url="html/1c6addc2-6929-0087-83c5-c8251757c3a4.htm" />
+  <HelpKINode Title="Set_TestAtIndexBeyondListCount1_ShouldThrowArgumentOutOfRangeException method" Url="html/3f981529-32d0-3bb3-41b0-315b3da9bf6d.htm" />
+  <HelpKINode Title="Set_TestAtIndexBeyondListCount2_ShouldThrowArgumentOutOfRangeException method" Url="html/002962dd-5b83-cc47-0c6b-0aa0f1fa3067.htm" />
+  <HelpKINode Title="Set_TestAtNegativeIndex_ShouldThrowArgumentOutOfRangeException method" Url="html/c5b2e562-3cee-2b02-6800-e02fc211af44.htm" />
+  <HelpKINode Title="Set_TestAtValidIndex_ShouldPassTest method" Url="html/3705eaf8-c9ee-e4ea-8a9f-f7e4a1381535.htm" />
+  <HelpKINode Title="TestBase class">
+    <HelpKINode Title="TestBase Class" Url="html/f2047bb7-c29d-a394-062e-872fcf631dad.htm" />
+    <HelpKINode Title="about TestBase class" Url="html/f2047bb7-c29d-a394-062e-872fcf631dad.htm" />
+    <HelpKINode Title="constructor" Url="html/88b874bd-9fcf-4dfe-8b08-1ea61d8d430d.htm" />
+    <HelpKINode Title="methods" Url="html/391f61bd-4d85-a01e-0fa3-bae0f1a7e2a9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TestBase.AddCleanupAction method" Url="html/9639caa1-6711-9d08-0b10-b0580a9771ee.htm" />
+  <HelpKINode Title="TestBase.TestBase constructor" Url="html/88b874bd-9fcf-4dfe-8b08-1ea61d8d430d.htm" />
+  <HelpKINode Title="TestBase.TestCleanup method" Url="html/753ab934-eac9-e79f-7373-969ffda1a378.htm" />
+  <HelpKINode Title="TestCleanup method" Url="html/753ab934-eac9-e79f-7373-969ffda1a378.htm" />
+  <HelpKINode Title="TestContext property" Url="html/413723b7-6527-8c20-ec79-5a2d4b28096f.htm" />
+</HelpKI>
