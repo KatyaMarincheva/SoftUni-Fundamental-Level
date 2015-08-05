@@ -1,11 +1,28 @@
-﻿namespace _03.Company_Hierarchy.Interfaces
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="IEmployee.cs" company="Katya">
+//   Katya.com. All rights reserved.
+// </copyright>
+// // <summary>
+//   The Employee interface.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+namespace _03.Company_Hierarchy.Interfaces
 {
-    using Enums;
+    using _03.Company_Hierarchy.Enums;
 
-    interface IEmployee
+    /// <summary>
+    /// The Employee interface.
+    /// </summary>
+    internal interface IEmployee
     {
+        /// <summary>
+        /// Gets or sets the department.
+        /// </summary>
         Department Department { get; set; }
 
+        /// <summary>
+        /// Gets or sets the salary.
+        /// </summary>
         decimal Salary { get; set; }
     }
 }

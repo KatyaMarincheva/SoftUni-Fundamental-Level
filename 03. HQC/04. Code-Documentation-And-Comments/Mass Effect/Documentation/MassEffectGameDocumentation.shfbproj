@@ -6,7 +6,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{b4adccad-248a-4b69-bcb1-13fc5f9575ff}</ProjectGuid>
+    <ProjectGuid>{e2dd1de3-0e48-4f9c-8f15-137ad0da5658}</ProjectGuid>
     <SHFBSchemaVersion>1.9.9.0</SHFBSchemaVersion>
     <!-- AssemblyName, Name, and RootNamespace are not used by SHFB but Visual Studio adds them anyway -->
     <AssemblyName>Documentation</AssemblyName>
@@ -17,22 +17,21 @@
     <OutputPath>.\Help\</OutputPath>
     <HtmlHelpName>Documentation</HtmlHelpName>
     <Language>en-US</Language>
-    <ProjectSummary>Mass Effect Documentation.</ProjectSummary>
     <DocumentationSources>
       <DocumentationSource sourceFile="..\MassEffect.sln" xmlns="" />
     </DocumentationSources>
     <NamespaceSummaries>
-      <NamespaceSummaryItem name="MassEffect" isDocumented="True" xmlns="">Mass Effect Game Documentation</NamespaceSummaryItem>
-<NamespaceSummaryItem name="MassEffect.Engine" isDocumented="True" xmlns="">Mass Effect Engine Documentation</NamespaceSummaryItem>
-<NamespaceSummaryItem name="MassEffect.Engine.Commands" isDocumented="True" xmlns="">Mass Effect Engine Commands Documentation</NamespaceSummaryItem>
-<NamespaceSummaryItem name="MassEffect.Engine.Factories" isDocumented="True" xmlns="">Mass Effect Engine Factories Documentation</NamespaceSummaryItem>
-<NamespaceSummaryItem name="MassEffect.Exceptions" isDocumented="True" xmlns="">Mass Effect Exceptions Documentation</NamespaceSummaryItem>
-<NamespaceSummaryItem name="MassEffect.GameObjects" isDocumented="True" xmlns="">Mass Effect GameObjects Documentation</NamespaceSummaryItem>
-<NamespaceSummaryItem name="MassEffect.GameObjects.Enhancements" isDocumented="True" xmlns="">Mass Effect GameObjects Enhancements Documentation</NamespaceSummaryItem>
-<NamespaceSummaryItem name="MassEffect.GameObjects.Locations" isDocumented="True" xmlns="">Mass Effect GameObjects Locations Documentation</NamespaceSummaryItem>
-<NamespaceSummaryItem name="MassEffect.GameObjects.Projectiles" isDocumented="True" xmlns="">Mass Effect GameObjects Projectiles Documentation</NamespaceSummaryItem>
-<NamespaceSummaryItem name="MassEffect.GameObjects.Ships" isDocumented="True" xmlns="">Mass Effect GameObjects Ships Documentation</NamespaceSummaryItem>
-<NamespaceSummaryItem name="MassEffect.Interfaces" isDocumented="True" xmlns="">Mass Effect GameObjects Interfaces Documentation</NamespaceSummaryItem></NamespaceSummaries>
+      <NamespaceSummaryItem name="MassEffect" isDocumented="False" xmlns="" />
+<NamespaceSummaryItem name="MassEffect.Engine" isDocumented="False" xmlns="" />
+<NamespaceSummaryItem name="MassEffect.Engine.Commands" isDocumented="False" xmlns="" />
+<NamespaceSummaryItem name="MassEffect.Engine.Factories" isDocumented="False" xmlns="" />
+<NamespaceSummaryItem name="MassEffect.Exceptions" isDocumented="False" xmlns="" />
+<NamespaceSummaryItem name="MassEffect.GameObjects" isDocumented="False" xmlns="" />
+<NamespaceSummaryItem name="MassEffect.GameObjects.Enhancements" isDocumented="False" xmlns="" />
+<NamespaceSummaryItem name="MassEffect.GameObjects.Locations" isDocumented="False" xmlns="" />
+<NamespaceSummaryItem name="MassEffect.GameObjects.Projectiles" isDocumented="False" xmlns="" />
+<NamespaceSummaryItem name="MassEffect.GameObjects.Ships" isDocumented="False" xmlns="" />
+<NamespaceSummaryItem name="MassEffect.Interfaces" isDocumented="True" xmlns="">Mass Effect Game Interfaces</NamespaceSummaryItem></NamespaceSummaries>
     <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
     <HelpFileFormat>HtmlHelp1, Website</HelpFileFormat>
     <IndentHtml>False</IndentHtml>
